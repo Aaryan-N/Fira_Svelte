@@ -1,12 +1,15 @@
 import './App.css'
 import Navbar from "./components/navbar/Navbar.jsx"
-import {useState} from "react";
+import {useEffect, useState} from "react";
 function App() {
+    const current_theme = localStorage.getItem("current_theme");
+    const [theme, setTheme] = useState(current_theme ? current_theme : "dark");
 
-    const [theme, setTheme] = useState("dark")
-
+    useEffect(() => {
+        localStorage.setItem("current_theme", theme);
+    },[theme])
   return(
-      <div className='container'>
+      <div className={`container ${theme}`}>
           <Navbar theme={theme} setTheme={setTheme} />
       </div>
   );

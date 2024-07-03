@@ -24,9 +24,9 @@ const Navbar = ({theme, setTheme}) => {
 
             <div className="search-box">
                 <input type='text' placeholder='Search' />
-                <img src={theme == 'dark' ? daySearch : nightSearch} alt=""/>
+                <img src={theme == 'dark' ? nightSearch : daySearch} alt=""/>
             </div>
-            <img onClick={()=>toggle_mode()} src={theme == 'dark' ? nightIcon : dayIcon} alt="" className='toggle-icon' />
+            <img onClick={()=>toggle_mode()} src={theme == 'dark' ? dayIcon : nightIcon} alt="" className='toggle-icon' />
         </div>
     )
 }
