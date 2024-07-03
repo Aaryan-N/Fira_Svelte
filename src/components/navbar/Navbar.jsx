@@ -1,10 +1,19 @@
 import './Navbar.css'
+import logo from '../../assets/logo.jpg'
+import dayIcon from '../../assets/navbar/day.png'
+import nightIcon from '../../assets/navbar/night.png'
+import daySearch from '../../assets/navbar/search-w.png'
+import nightSearch from '../../assets/navbar/search-b.png'
+// eslint-disable-next-line react/prop-types
+const Navbar = ({theme, setTheme}) => {
 
-const Navbar = () => {
+    const toggle_mode = () => {
+        theme == 'light' ? setTheme('dark') : setTheme('light')
+    }
+
     return(
         <div className='navbar'>
-
-            <img src="" alt="" className='navbar-logo' />
+            <img src={logo} alt="Hydra Logo" className='logo' />
 
             <ul>
                 <li>Home</li>
@@ -14,10 +23,10 @@ const Navbar = () => {
             </ul>
 
             <div className="search-box">
-                <input type='text' placeholder='Search...' />
-                <img src="" alt=""/>
+                <input type='text' placeholder='Search' />
+                <img src={theme == 'dark' ? daySearch : nightSearch} alt=""/>
             </div>
-            <img src="" alt="" className='toggle-icon' />
+            <img onClick={()=>toggle_mode()} src={theme == 'dark' ? nightIcon : dayIcon} alt="" className='toggle-icon' />
         </div>
     )
 }
