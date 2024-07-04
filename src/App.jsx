@@ -1,18 +1,17 @@
 import './App.css'
-import Navbar from "./components/navbar/Navbar.jsx"
-import {useEffect, useState} from "react";
-function App() {
-    const current_theme = localStorage.getItem("current_theme");
-    const [theme, setTheme] = useState(current_theme ? current_theme : "dark");
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from "./pages/Home.jsx"
+import Help from "./pages/help/Help.jsx";
 
-    useEffect(() => {
-        localStorage.setItem("current_theme", theme);
-    },[theme])
-  return(
-      <div className={`container ${theme}`}>
-          <Navbar theme={theme} setTheme={setTheme} />
-      </div>
-  );
+function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="/help" element={<Help />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App

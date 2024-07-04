@@ -13,6 +13,7 @@ const Navbar = ({theme, setTheme}) => {
 
     return(
         <div className='navbar'>
+
             <img src={logo} alt="Hydra Logo" className='logo' />
 
             <ul>
@@ -26,7 +27,8 @@ const Navbar = ({theme, setTheme}) => {
                 <input type='text' placeholder='Search' />
                 <img src={theme == 'dark' ? nightSearch : daySearch} alt=""/>
             </div>
-            <img onClick={()=>toggle_mode()} src={theme == 'dark' ? dayIcon : nightIcon} alt="" className='toggle-icon' />
+
+            <img onClick={() => {toggle_mode()}} src={theme == 'dark' ? dayIcon : nightIcon} alt="" className='toggle-icon' />
         </div>
     )
 }
