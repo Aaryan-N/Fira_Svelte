@@ -13,9 +13,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #0C120C;
-    padding: 15px 7%;
+    background: #454545;
+    padding: 16px 7%;
 }
+.navbar a {
+    margin-right: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:visited { color:white; text-shadow: 2px 4px 4px rgba(46,91,173,0.6);; }
+a:hover { color:white; cursor: pointer; text-shadow: 2px 4px 4px rgba(46,91,173,0.6);}
+a:focus { color:white; cursor: pointer; text-shadow: 2px 4px 4px rgba(46,91,173,0.6);}
+a:hover, a:active { color:white; cursor: pointer; text-shadow: 2px 4px 4px rgba(46,91,173,0.6);}
+
+
 .logo {
     border-radius: 85%;
     width: 200px;
@@ -37,25 +51,19 @@ ul li {
     cursor: pointer;
 }
 
-.toggle-icon {
-    width: 35px;
-    cursor: pointer;
-    margin-left: 40px;
-}
-
 .loginButton {
     font-family: "Open Sans", sans-serif;
-    background-color: #FF0000;
+    background-color: #c80000;
     font-size: 15px;
     padding: 14px 20px;
     border-radius: 20%;
-    color: #ECEBF3;
+    color: #FFFFFF;
     transition-duration: 0.5s;
 }
 
 .loginButton:hover {
     font-family: "Open Sans", sans-serif;
-    background-color: #8B0000;
-    color: #ECEBF3;
+    background-color: #E9DCC9;
+    color: black;
     cursor: grab;
 }

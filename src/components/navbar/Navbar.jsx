@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const Navbar = () => {
     return(
-        <span className='navbar'>
+        <nav className='navbar'>
             <img src={logo} alt="Hydra Logo" className='logo' />
             <ul>
                 <li><Link to="/">Home</Link></li>
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li><Link to="/contact-us">Contact Us</Link></li>
             </ul>
             <button className="loginButton">Login</button>
-        </span>
+        </nav>
     )
 }
 
