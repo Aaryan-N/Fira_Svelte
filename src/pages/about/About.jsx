@@ -1,7 +1,12 @@
+import Navbar from "../../components/navbar/Navbar.jsx";
+
 function About() {
     return(
         <>
-            <h1>Rip there is no help here champ. get packing!</h1>
+            <div className='container'>
+                <Navbar/>
+            </div>
+            <h1>About page fella</h1>
         </>
     );
 }

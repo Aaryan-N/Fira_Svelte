@@ -1,15 +1,15 @@
 import Navbar from "../../components/navbar/Navbar.jsx";
-import './pricing.css'
+import './404.css'
 
-function Pricing() {
+function FourOhFour() {
     return(
         <>
             <div className='container'>
                 <Navbar />
             </div>
-            <h1>Pricing page!</h1>
+            <h1>404 page not found!</h1>
         </>
     );
 }
 
-export default Pricing;
+export default FourOhFour;
