@@ -1,30 +1,19 @@
-import './Navbar.css'
+import './navbar.css'
 import logo from '../../assets/logo.jpg'
-import dayIcon from '../../assets/navbar/day.png'
-import nightIcon from '../../assets/navbar/night.png'
-import daySearch from '../../assets/navbar/search-w.png'
-import nightSearch from '../../assets/navbar/search-b.png'
-// eslint-disable-next-line react/prop-types
-const Navbar = ({theme, setTheme}) => {
 
-    const toggle_mode = () => {
-        theme == 'light' ? setTheme('dark') : setTheme('light')
-    }
-
+const Navbar = () => {
     return(
-        <div className='navbar'>
-
+        <span className='navbar'>
             <img src={logo} alt="Hydra Logo" className='logo' />
-
             <ul>
                 <li>Home</li>
                 <li>Dashboard</li>
                 <li>Features</li>
-                <li>About</li>
+                <li>Pricing</li>
+                <li>Contact Us</li>
             </ul>
-
-            <img onClick={() => {toggle_mode()}} src={theme == 'dark' ? dayIcon : nightIcon} alt="" className='toggle-icon' />
-        </div>
+            <button className="loginButton">Login</button>
+        </span>
     )
 }
 

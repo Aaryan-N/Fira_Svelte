@@ -1,0 +1,61 @@
+.open-sans-Navbar {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+}
+
+.navbar {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0C120C;
+    padding: 15px 7%;
+}
+.logo {
+    border-radius: 85%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+ul {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    font-family: "Open Sans", sans-serif;
+    color: #ECEBF3;
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.toggle-icon {
+    width: 35px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.loginButton {
+    font-family: "Open Sans", sans-serif;
+    background-color: #FF0000;
+    font-size: 15px;
+    padding: 14px 20px;
+    border-radius: 20%;
+    color: #ECEBF3;
+    transition-duration: 0.5s;
+}
+
+.loginButton:hover {
+    font-family: "Open Sans", sans-serif;
+    background-color: #8B0000;
+    color: #ECEBF3;
+    cursor: grab;
+}

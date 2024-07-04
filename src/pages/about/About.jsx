@@ -1,4 +1,4 @@
-function Help() {
+function About() {
     return(
         <>
             <h1>Rip there is no help here champ. get packing!</h1>
@@ -6,4 +6,4 @@ function Help() {
     );
 }
 
-export default Help;
+export default About;
