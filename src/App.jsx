@@ -1,14 +1,12 @@
 import './App.css'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from "./pages/Home.jsx"
-import Help from "./pages/help/Help.jsx";
+import {LoginPage} from "./pages/login/LoginPage.jsx"
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route index element={<Home />} />
-                <Route path="/help" element={<Help />} />
+                <Route index element={<LoginPage />} />
             </Routes>
         </BrowserRouter>
     );

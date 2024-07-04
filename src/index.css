@@ -1,25 +1,12 @@
 body {
   margin: 0;
-  padding: 0;
+  background-color: #292929;
+  color: #fff;
+  font-family: 'DM Sans', serif;
+  height: 100%;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.container{
-  margin: 0;
-  width: 100vw;
-  min-height: 100vh;
-  background: #ced8ff;
-}
-.container.dark {
-  background: #222;
-}
-
+html,
 #root {
-  margin: 0;
-  padding: 0;
+  height: 100%;
 }
