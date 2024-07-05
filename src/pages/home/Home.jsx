@@ -1,6 +1,6 @@
-import {useEffect, useState} from "react";
 import Navbar from "../../components/navbar/Navbar.jsx";
 import './home.css'
+import Footer from "../../components/footer/Footer.jsx";
 
 function Home() {
     return(
@@ -11,6 +11,10 @@ function Home() {
 
             <div>
         <h1>Hello mr skibidi</h1>
+            </div>
+
+            <div className="container">
+            <Footer />
             </div>
         </>
     );
