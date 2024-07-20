@@ -2,5 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
-
+* {
+    font-family: "Open Sans", sans-serif;
+}
