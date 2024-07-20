@@ -78,10 +78,10 @@
         </div>
     </div>
 
-    <hr class="my-6 border-[#FFE7BC] ml-1.5 mr-1.5" />
+    <hr class="border-[#FFE7BC] ml-1.5 mr-1.5" />
 
     <div>
-        <p class="flex text-[#FFE7BC] ml-1.5 items-center justify-center">Copyright &copy; {copyrightYear.getFullYear()} - Fira</p>
+        <p class="flex text-[#FFE7BC] ml-1.5 items-center justify-center py-[10px]">Copyright &copy; {copyrightYear.getFullYear()} - Fira</p>
     </div>
 
 
