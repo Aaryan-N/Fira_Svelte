@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Working on the navbar">
-      <change afterPath="$PROJECT_DIR$/src/index.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/contactus/+page.svelte" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/docs/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/features/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/FiraLogo.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Inferna_Svelte.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/layout/+layout.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,27 +103,14 @@
       <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\static" />
       <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\layout" />
       <recent name="C:\Users\aarya\WebstormProjects\Inferna_Svelte" />
       <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\src\pages\home" />
       <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\src\assets" />
-      <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\public" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Fira_Svelte" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Fira_Svelte" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="npm dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -174,7 +153,8 @@
       <workItem from="1720502137063" duration="819000" />
       <workItem from="1720503012128" duration="2891000" />
       <workItem from="1720517248895" duration="22000" />
-      <workItem from="1721427646174" duration="11620000" />
+      <workItem from="1721427646174" duration="14242000" />
+      <workItem from="1721460964235" duration="558000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -272,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721445465595</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Working on the navbar">
+      <option name="closed" value="true" />
+      <created>1721458028494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721458028495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
