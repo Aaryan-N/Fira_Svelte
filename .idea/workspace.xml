@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Working on the navbar">
+      <change afterPath="$PROJECT_DIR$/src/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/contactus/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/docs/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/features/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Inferna_Svelte.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/layout/+layout.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="+layout" />
+        <option value="+page.svelte" />
+        <option value="Navbar" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aaryan-N&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aaryan-N/Hydra_React.git&quot;,
+    &quot;accountId&quot;: &quot;92609d67-8131-4b74-b862-7f8ad07f2ac6&quot;
+  }
+}</component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ij9TCjHfX9waUd9SeDq0nw66LO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;production&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aarya/WebstormProjects/Fira_Svelte/src/routes/features&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ide.date.format&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\features" />
+      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\docs" />
+      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\contactus" />
+      <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\layout" />
+      <recent name="C:\Users\aarya\WebstormProjects\Inferna_Svelte" />
+      <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\src\pages\home" />
+      <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\src\assets" />
+      <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Fira_Svelte" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Fira_Svelte" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="npm dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="" />
+      <created>1719993124539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719993124539</updated>
+      <workItem from="1719993125811" duration="313000" />
+      <workItem from="1719993762117" duration="190000" />
+      <workItem from="1720038875213" duration="6690000" />
+      <workItem from="1720045708972" duration="590000" />
+      <workItem from="1720048104973" duration="9000" />
+      <workItem from="1720048522265" duration="36000" />
+      <workItem from="1720051977881" duration="747000" />
+      <workItem from="1720055065075" duration="2772000" />
+      <workItem from="1720074415845" duration="15890000" />
+      <workItem from="1720129802160" duration="115000" />
+      <workItem from="1720159132488" duration="5718000" />
+      <workItem from="1720177071571" duration="57000" />
+      <workItem from="1720502137063" duration="819000" />
+      <workItem from="1720503012128" duration="2891000" />
+      <workItem from="1720517248895" duration="22000" />
+      <workItem from="1721427646174" duration="11620000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creating a navbar">
+      <option name="closed" value="true" />
+      <created>1720040512568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720040512569</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creating a navbar and adding light and dark mode functionality">
+      <option name="closed" value="true" />
+      <created>1720044139818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720044139820</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added dashboard with light and dark functionality">
+      <option name="closed" value="true" />
+      <created>1720048545378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720048545378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished up learning routing">
+      <option name="closed" value="true" />
+      <created>1720075934897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720075934897</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Didn't get much done will most probably will have to properly design the website before jumping right in (who would have thought?)">
+      <option name="closed" value="true" />
+      <created>1720084766508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720084766512</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Figma was overrated anyways">
+      <option name="closed" value="true" />
+      <created>1720089119962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720089119962</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding some more pages">
+      <option name="closed" value="true" />
+      <created>1720126512418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720126512419</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Took a very long time figuring out the colors and shadows. css is so painful">
+      <option name="closed" value="true" />
+      <created>1720129839988</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720129839988</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixed up the navbar now moving onto the footer">
+      <option name="closed" value="true" />
+      <created>1720162798742</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720162798742</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Moved from react to svelte as I decided it would be a better library and it is still early in the project.">
+      <option name="closed" value="true" />
+      <created>1720503498462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720503498462</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Learning how to do routing and pages in svelte">
+      <option name="closed" value="true" />
+      <created>1721434974702</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721434974703</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Working on the navbar">
+      <option name="closed" value="true" />
+      <created>1721445465594</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721445465595</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creating a navbar" />
+    <MESSAGE value="Creating a navbar and adding light and dark mode functionality" />
+    <MESSAGE value="Added dashboard with light and dark functionality" />
+    <MESSAGE value="Finished up learning routing" />
+    <MESSAGE value="Didn't get much done will most probably will have to properly design the website before jumping right in (who would have thought?)" />
+    <MESSAGE value="Figma was overrated anyways" />
+    <MESSAGE value="Adding some more pages" />
+    <MESSAGE value="Took a very long time figuring out the colors and shadows. css is so painful" />
+    <MESSAGE value="Fixed up the navbar now moving onto the footer" />
+    <MESSAGE value="Moved from react to svelte as I decided it would be a better library and it is still early in the project." />
+    <MESSAGE value="Learning how to do routing and pages in svelte" />
+    <MESSAGE value="Working on the navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the navbar" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
