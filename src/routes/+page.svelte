@@ -2,8 +2,19 @@
     Hello world!
 </h1>
 
-<style lang="postcss">
-    :global(html) {
-        background-color: theme(colors.gray.100);
+<script>
+    import Layout from './layout/+layout.svelte'
+    let name = 'svelte';
+</script>
+
+<h1>Your name is {name.toUpperCase()}</h1>
+
+<Layout />
+
+<style>
+    p{
+        font-family: sans-serif;
+        color: goldenrod;
+        font-size: 2em;
     }
 </style>
