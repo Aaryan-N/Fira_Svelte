@@ -1,5 +1,5 @@
 <script>
-    let featureDocState = 'Fun';
+    let featureDocState = Fun;
     import Fun from "../../featuredocs/Fun.svelte"
     import Arcade from "../../featuredocs/Arcade.svelte"
     import Birthday from "../../featuredocs/Birthday.svelte"
@@ -15,66 +15,34 @@
     <p class="mt-2 text-xl text-[#FFE7BC] flex justify-center mb-3">Features</p>
     <ul class="">
     <li class="flex justify-center my-2">
-            <a href="/features" on:click={() => (featureDocState = "Fun")}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Fun</button></a>
+            <a href="/features" on:click={() => (featureDocState = Fun)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Fun</button></a>
     </li>
     <li class="flex justfiy-center my-2">
-            <a href="/features" on:click={() => (featureDocState = "Arcade")}>
+            <a href="/features" on:click={() => (featureDocState = Arcade)}>
                 <button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] mr-0">Arcade</button>
             </a>
     </li>
     <li class="flex justify-center my-2">
-            <a href="/features" on:click={() => (featureDocState = "Birthday")}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Birthday</button></a>
+            <a href="/features" on:click={() => (featureDocState = Birthday)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Birthday</button></a>
     </li>
     <li class="flex justify-center my-2">
-            <a href="/features" on:click={() => (featureDocState = "Economy")}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Economy</button></a>
+            <a href="/features" on:click={() => (featureDocState = Economy)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Economy</button></a>
     </li>
     <li class="flex justify-center my-2">
-            <a href="/features" on:click={() => (featureDocState = "Minecraft")}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Minecraft</button></a>
+            <a href="/features" on:click={() => (featureDocState = Minecraft)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Minecraft</button></a>
     </li>
     <li class="flex justify-center my-2">
-            <a href="/features" on:click={() => (featureDocState = "Ticketing")}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Ticketing</button></a>
+            <a href="/features" on:click={() => (featureDocState = Ticketing)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Ticketing</button></a>
         </li>
         <li class="flex justify-center my-2">
-            <a href="/features" on:click={() => (featureDocState = "Utility")}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Utility</button></a>
+            <a href="/features" on:click={() => (featureDocState = Utility)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Utility</button></a>
         </li>
     </ul>
     </div>
 </div>
 <div class="w-[100%] h-auto bg-[#383a40]">
-    {#if featureDocState === 'Fun'}
-        <div class="p-2">
-        <Fun />
-        </div>
-    {/if}
-    {#if featureDocState === 'Arcade'}
-        <div class="p-2">
-        <Arcade />
-        </div>
-    {/if}
-    {#if featureDocState === 'Birthday'}
-        <div class="p-2">
-            <Birthday />
-        </div>
-    {/if}
-    {#if featureDocState === 'Economy'}
-        <div class="p-2">
-            <Economy />
-        </div>
-    {/if}
-    {#if featureDocState === 'Minecraft'}
-        <div class="p-2">
-            <Minecraft />
-        </div>
-    {/if}
-    {#if featureDocState === 'Ticketing'}
-        <div class="p-2">
-            <Ticketing />
-        </div>
-    {/if}
-    {#if featureDocState === 'Utility'}
-        <div class="p-2">
-            <Utility />
-        </div>
-    {/if}
+    <div class="p-2">
+    <svelte:component this={featureDocState} />
+    </div>
 </div>
 </div>
