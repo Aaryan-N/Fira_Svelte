@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Well im trying to get this accordion to work but its playing me instead">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/featuredocs/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,9 @@
   }
 }</component>
   <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -155,7 +155,7 @@
       <workItem from="1721460964235" duration="24550000" />
       <workItem from="1721998360477" duration="176000" />
       <workItem from="1721998548842" duration="65000" />
-      <workItem from="1721998780744" duration="5042000" />
+      <workItem from="1721998780744" duration="9727000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -317,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721483019613</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Well im trying to get this accordion to work but its playing me instead">
+      <option name="closed" value="true" />
+      <created>1722004019577</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722004019578</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
