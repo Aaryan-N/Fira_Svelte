@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="CSS should be outlawed">
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Well im trying to get this accordion to work but its playing me instead">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/featuredocs/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Fun.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Fun.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/features/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/features/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +24,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="+layout" />
         <option value="+page.svelte" />
         <option value="Navbar" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,7 +42,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Aaryan-N/Hydra_React.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Aaryan-N/Fira_Svelte.git&quot;,
     &quot;accountId&quot;: &quot;92609d67-8131-4b74-b862-7f8ad07f2ac6&quot;
   }
 }</component>
@@ -48,7 +51,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2ij9TCjHfX9waUd9SeDq0nw66LO" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -60,11 +63,13 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "production",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aarya/WebstormProjects/Fira_Svelte/src/routes/features",
+    "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -148,6 +153,9 @@
       <workItem from="1720517248895" duration="22000" />
       <workItem from="1721427646174" duration="14242000" />
       <workItem from="1721460964235" duration="24550000" />
+      <workItem from="1721998360477" duration="176000" />
+      <workItem from="1721998548842" duration="65000" />
+      <workItem from="1721998780744" duration="5042000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -347,7 +355,8 @@
     <MESSAGE value="Polished the footer and working on the features page" />
     <MESSAGE value="Buttons and now components work now!!!" />
     <MESSAGE value="CSS should be outlawed" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS should be outlawed" />
+    <MESSAGE value="Well im trying to get this accordion to work but its playing me instead" />
+    <option name="LAST_COMMIT_MESSAGE" value="Well im trying to get this accordion to work but its playing me instead" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
