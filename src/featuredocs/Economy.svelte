@@ -1,7 +1,9 @@
 <script>
+	let dailyEconomyDescDropdown = false;
 	let dailyEconomyParameterDropdown = false;
 	let dailyEconomyResultsDropdown = false;
 	let dailyEconomyErrorsDropdown = false;
+	let checkBalanceDescDropdown = false;
 	let checkBalanceParameterDropdown = false;
 	let checkBalanceResultsDropdown = false;
 	let checkBalanceErrorsDropdown = false;
@@ -21,6 +23,34 @@
 				commandString="daily"/>
 		</div>
 
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => dailyEconomyDescDropdown = !dailyEconomyDescDropdown} on:click={() => dailyEconomyDescDropdown = !dailyEconomyDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !dailyEconomyDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if dailyEconomyDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if dailyEconomyDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Collect your daily coins!</h1>
+					</div>
+				</div>
+			{/if}
+		</div>
+		
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
 			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => dailyEconomyParameterDropdown = !dailyEconomyParameterDropdown} on:click={() => dailyEconomyParameterDropdown = !dailyEconomyParameterDropdown}>
 				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Parameters</button>
@@ -137,6 +167,34 @@
 			<p class="text-[#FFE7BC] text-xl">New Arcade Session</p>
 			<CommandBlock
 				commandString="newarcadesession"/>
+		</div>
+
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => checkBalanceDescDropdown = !checkBalanceDescDropdown} on:click={() => checkBalanceDescDropdown = !checkBalanceDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !checkBalanceDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if checkBalanceDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if checkBalanceDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Check your balance!</h1>
+					</div>
+				</div>
+			{/if}
 		</div>
 
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">

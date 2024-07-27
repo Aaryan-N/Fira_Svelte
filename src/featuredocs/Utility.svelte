@@ -1,7 +1,9 @@
 <script>
+	let aboutDescDropdown = false;
 	let aboutParameterDropdown = false;
 	let aboutResultsDropdown = false;
 	let aboutErrorsDropdown = false;
+	let statsDescDropdown = false;
 	let statsParameterDropdown = false;
 	let statsResultsDropdown = false;
 	let statsErrorsDropdown = false;
@@ -19,6 +21,34 @@
 			<p class="text-[#FFE7BC] text-xl">About Fira</p>
 			<CommandBlock
 				commandString="about"/>
+		</div>
+
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => aboutDescDropdown = !aboutDescDropdown} on:click={() => aboutDescDropdown = !aboutDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !aboutDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if aboutDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if aboutDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Replies with some information about Fira!</h1>
+					</div>
+				</div>
+			{/if}
 		</div>
 
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
@@ -126,6 +156,34 @@
 			<p class="text-[#FFE7BC] text-xl">Server Stats</p>
 			<CommandBlock
 				commandString="stats"/>
+		</div>
+
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => statsDescDropdown = !statsDescDropdown} on:click={() => statsDescDropdown = !statsDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !statsDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if statsDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if statsDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Replies with some handy stats about the server!</h1>
+					</div>
+				</div>
+			{/if}
 		</div>
 
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">

@@ -1,7 +1,9 @@
 <script>
+	let ticketConfigDescDropdown = false;
 	let ticketConfigParameterDropdown = false;
 	let ticketConfigResultsDropdown = false;
 	let ticketConfigErrorsDropdown = false;
+	let newTicketDescDropdown = false;
 	let newTicketParameterDropdown = false;
 	let newTicketResultsDropdown = false;
 	let newTicketErrorsDropdown = false;
@@ -21,6 +23,34 @@
 				commandString="createticket"/>
 		</div>
 
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => ticketConfigDescDropdown = !ticketConfigDescDropdown} on:click={() => ticketConfigDescDropdown = !ticketConfigDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !ticketConfigDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if ticketConfigDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if ticketConfigDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Create a ticket for mods to review!</h1>
+					</div>
+				</div>
+			{/if}
+		</div>
+		
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
 			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => newTicketParameterDropdown = !newTicketParameterDropdown} on:click={() => newTicketParameterDropdown = !newTicketParameterDropdown}>
 				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Parameters</button>
@@ -140,6 +170,34 @@
 				commandString="ticketconfig"/>
 		</div>
 
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => newTicketDescDropdown = !newTicketDescDropdown} on:click={() => newTicketDescDropdown = !newTicketDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !newTicketDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if newTicketDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if newTicketDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Register the ticket config!</h1>
+					</div>
+				</div>
+			{/if}
+		</div>
+		
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
 			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => ticketConfigParameterDropdown = !ticketConfigParameterDropdown} on:click={() => ticketConfigParameterDropdown = !ticketConfigParameterDropdown}>
 				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Parameters</button>
