@@ -1,5 +1,6 @@
 <script>
-    let featureDocState = Fun;
+    let featureDocState = Intro;
+    import Intro from '../../featuredocs/FeatureIntro.svelte'
     import Fun from "../../featuredocs/Fun.svelte"
     import Arcade from "../../featuredocs/Arcade.svelte"
     import Birthday from "../../featuredocs/Birthday.svelte"
@@ -12,7 +13,7 @@
 <div class="flex">
 <div class='w-[200px] h-auto bg-[#313338] border-[#FFE7BC] border-r-4 flex justify-center'>
     <div class="grid-rows-4 grid-flow-col px-2">
-    <p class="mt-2 text-xl text-[#FFE7BC] flex justify-center mb-3">Features</p>
+    <a href="/features" on:click={() => (featureDocState = Intro)}><p class="cursor-pointer mt-2 text-xl text-[#FFE7BC] flex justify-center mb-3">Features</p></a>
     <ul class="">
     <li class="flex justify-center my-2">
             <a href="/features" on:click={() => (featureDocState = Fun)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Fun</button></a>

@@ -76,7 +76,7 @@
 					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
 						<ul>
 							<li>
-								<p>Return the message of the day for a given minecraft server!</p>
+								<p>Return the amount of sessions and time on Hack Club Arcade!</p>
 								<img class="flex w-[100%] h-auto mt-2" src="arcadeex/arcadestats.png" alt="">
 							</li>
 						</ul>
@@ -107,35 +107,6 @@
 			{#if arcadeStatsErrorsDropdown}
 				<div transition:slide>
 					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
-						<div class="grid grid-cols-1 flex">
-							<h1 class="text-base mb-1">Error Code: 4200</h1>
-							<hr class="border-[#FFE7BC]" />
-							<p class="mt-2 mb-1 ">You have entered an invalid URL. Please enter an actual url!</p>
-							<div>
-								<CodeBlock
-									codeName="Example:"
-									codeBody="mc.hypixel.net"
-								/>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
-						<div class="grid grid-cols-1 flex">
-							<h1 class="text-base mb-1">Error Code: 4800</h1>
-							<hr class="border-[#FFE7BC]" />
-							<p class="mt-2 mb-1 ">You have entered an invalid Minecraft Server. Either this server is down or invalid. Please try again!</p>
-							<div>
-								<CodeBlock
-									codeName="Example:"
-									codeBody="mc.hypixel.net"
-								/>
-							</div>
-						</div>
-					</div>
-
 					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
 						<div class="grid grid-cols-1 flex">
 							<h1 class="text-base mb-1">If you encounter any other errors:</h1>
@@ -182,10 +153,15 @@
 			{#if arcadeNewSessionParameterDropdown}
 				<div transition:slide>
 					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+					<div class="text-sm pt-1 ml-1 mb-1 flex text-[#FFE7BC]">
 						<CodeBlock
-							codeName="serveraddress:"
-							codeBody="A Minecraft server address. e.g mc.hypixel.net"/>
+							codeName="title:"
+							codeBody="The title of your arcade session."/>
+					</div>
+					<div class="text-sm ml-1 mb-2 flex text-[#FFE7BC]">
+						<CodeBlock
+							codeName="slackid:"
+							codeBody="Your slack id. Not your display name!"/>
 					</div>
 				</div>
 			{/if}
@@ -216,8 +192,8 @@
 					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
 						<ul>
 							<li>
-								<p>Return the message of the day for a given minecraft server!</p>
-								<img class="flex w-[100%] h-[200px] mt-2" src="minecraftex/motdExample.jpg" alt="">
+								<p>Starts a new arcade session without having to go to Slack!</p>
+								<img class="flex w-[100%] h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
 							</li>
 						</ul>
 					</div>
@@ -247,35 +223,6 @@
 			{#if arcadeNewSessionErrorsDropdown}
 				<div transition:slide>
 					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
-						<div class="grid grid-cols-1 flex">
-							<h1 class="text-base mb-1">Error Code: 4200</h1>
-							<hr class="border-[#FFE7BC]" />
-							<p class="mt-2 mb-1 ">You have entered an invalid URL. Please enter an actual url!</p>
-							<div>
-								<CodeBlock
-									codeName="Example:"
-									codeBody="mc.hypixel.net"
-								/>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
-						<div class="grid grid-cols-1 flex">
-							<h1 class="text-base mb-1">Error Code: 4800</h1>
-							<hr class="border-[#FFE7BC]" />
-							<p class="mt-2 mb-1 ">You have entered an invalid Minecraft Server. Either this server is down or invalid. Please try again!</p>
-							<div>
-								<CodeBlock
-									codeName="Example:"
-									codeBody="mc.hypixel.net"
-								/>
-							</div>
-						</div>
-					</div>
-
 					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
 						<div class="grid grid-cols-1 flex">
 							<h1 class="text-base mb-1">If you encounter any other errors:</h1>

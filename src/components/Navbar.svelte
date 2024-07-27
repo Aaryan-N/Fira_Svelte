@@ -1,3 +1,6 @@
+<script>
+    import { slide } from 'svelte/transition'
+</script>
 <nav class="bg-gradient-to-t from-[#412534] to-[#302134] bg-[#313338] flex justify-between items-center w-[100%] mx-auto pt-2 pb-2 mb-0 sticky top-0">
     <div>
         <img class="ml-3 rounded-full w-16 h-16" src="/FiraLogo.jpeg" alt="Fira" />
