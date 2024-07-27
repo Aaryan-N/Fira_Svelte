@@ -54,8 +54,15 @@
             {#if eightBallParameterDropdown}
                 <div transition:slide>
                     <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-                    <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
-                        <h1 class="ml-1">None</h1>
+                    <div class="text-sm pt-1 ml-1 mb-1 flex text-[#FFE7BC]">
+                        <CodeBlock
+                          codeName="query:"
+                          codeBody="Ask the 8 Ball what you want!"/>
+                    </div>
+                    <div class="text-sm ml-1 mb-2 flex text-[#FFE7BC]">
+                        <CodeBlock
+                          codeName="lucky:"
+                          codeBody="Feeling lucky? Set this to true"/>
                     </div>
                 </div>
             {/if}
@@ -86,8 +93,8 @@
                     <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                         <ul>
                             <li>
-                                <p>Collects a daily amount of coins!</p>
-                                <img class="flex rounded-2xl w-[100%] h-auto mt-2" src="economyex/successfulDaily.png" alt="">
+                                <p>A Verdict!</p>
+                                <img class="flex rounded-2xl w-[100%] h-auto mt-2" src="funex/8BallSuccess.png" alt="">
                             </li>
                         </ul>
                     </div>
@@ -116,15 +123,6 @@
             </div>
             {#if eightBallErrorsDropdown}
                 <div transition:slide>
-                    <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-                    <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
-                        <div class="grid grid-cols-1 flex">
-                            <h1 class="text-base mb-1">Error Code: 4201</h1>
-                            <hr class="border-[#FFE7BC]" />
-                            <p class="mt-2 mb-1 ">You have already collected your daily amount! Try again tomorrow.</p>
-                        </div>
-                    </div>
-
                     <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
                     <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                         <div class="grid grid-cols-1 flex">
@@ -172,15 +170,8 @@
             {#if dadJokeParameterDropdown}
                 <div transition:slide>
                     <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-                    <div class="text-sm pt-1 ml-1 mb-1 flex text-[#FFE7BC]">
-                        <CodeBlock
-                          codeName="title:"
-                          codeBody="The title of your arcade session."/>
-                    </div>
-                    <div class="text-sm ml-1 mb-2 flex text-[#FFE7BC]">
-                        <CodeBlock
-                          codeName="slackid:"
-                          codeBody="Your slack id. Not your display name!"/>
+                    <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                        <h1 class="ml-1">None</h1>
                     </div>
                 </div>
             {/if}
@@ -211,8 +202,8 @@
                     <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                         <ul>
                             <li>
-                                <p>Starts a new arcade session without having to go to Slack!</p>
-                                <img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
+                                <p>A (slightly corny) dad joke!</p>
+                                <img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="funex/DadJokeSuccess.png" alt="">
                             </li>
                         </ul>
                     </div>
@@ -286,7 +277,9 @@
                     <div transition:slide>
                         <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
                         <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
-                            <h1 class="ml-1">None</h1>
+                            <CodeBlock
+                              codeName="type:"
+                              codeBody="Either a Random, Cat or Dog related fact!"/>
                         </div>
                     </div>
                 {/if}
@@ -317,8 +310,8 @@
                         <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                             <ul>
                                 <li>
-                                    <p>Collects a daily amount of coins!</p>
-                                    <img class="flex rounded-2xl w-[100%] h-auto mt-2" src="economyex/successfulDaily.png" alt="">
+                                    <p>Replies with your chosen fact:</p>
+                                    <img class="flex rounded-2xl w-[100%] h-auto mt-2" src="funex/FactSuccess.png" alt="">
                                 </li>
                             </ul>
                         </div>
@@ -347,15 +340,6 @@
                 </div>
                 {#if factsErrorsDropdown}
                     <div transition:slide>
-                        <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-                        <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
-                            <div class="grid grid-cols-1 flex">
-                                <h1 class="text-base mb-1">Error Code: 4201</h1>
-                                <hr class="border-[#FFE7BC]" />
-                                <p class="mt-2 mb-1 ">You have already collected your daily amount! Try again tomorrow.</p>
-                            </div>
-                        </div>
-
                         <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
                         <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                             <div class="grid grid-cols-1 flex">
@@ -403,15 +387,8 @@
                 {#if jokeParameterDropdown}
                     <div transition:slide>
                         <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-                        <div class="text-sm pt-1 ml-1 mb-1 flex text-[#FFE7BC]">
-                            <CodeBlock
-                              codeName="title:"
-                              codeBody="The title of your arcade session."/>
-                        </div>
-                        <div class="text-sm ml-1 mb-2 flex text-[#FFE7BC]">
-                            <CodeBlock
-                              codeName="slackid:"
-                              codeBody="Your slack id. Not your display name!"/>
+                        <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                            <h1 class="ml-1">None</h1>
                         </div>
                     </div>
                 {/if}
@@ -442,8 +419,8 @@
                         <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                             <ul>
                                 <li>
-                                    <p>Starts a new arcade session without having to go to Slack!</p>
-                                    <img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
+                                    <p>A joke!</p>
+                                    <img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="funex/JokeSuccess.png" alt="">
                                 </li>
                             </ul>
                         </div>
@@ -550,8 +527,8 @@
                         <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                             <ul>
                                 <li>
-                                    <p>Collects a daily amount of coins!</p>
-                                    <img class="flex rounded-2xl w-[100%] h-auto mt-2" src="economyex/successfulDaily.png" alt="">
+                                    <p>A meme!</p>
+                                    <img class="flex rounded-2xl w-[100%] h-auto mt-2" src="funex/MemesSuccess.png" alt="">
                                 </li>
                             </ul>
                         </div>
@@ -580,15 +557,6 @@
                 </div>
                 {#if memesErrorsDropdown}
                     <div transition:slide>
-                        <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
-                        <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
-                            <div class="grid grid-cols-1 flex">
-                                <h1 class="text-base mb-1">Error Code: 4201</h1>
-                                <hr class="border-[#FFE7BC]" />
-                                <p class="mt-2 mb-1 ">You have already collected your daily amount! Try again tomorrow.</p>
-                            </div>
-                        </div>
-
                         <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
                         <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                             <div class="grid grid-cols-1 flex">
@@ -638,13 +606,8 @@
                         <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
                         <div class="text-sm pt-1 ml-1 mb-1 flex text-[#FFE7BC]">
                             <CodeBlock
-                              codeName="title:"
-                              codeBody="The title of your arcade session."/>
-                        </div>
-                        <div class="text-sm ml-1 mb-2 flex text-[#FFE7BC]">
-                            <CodeBlock
-                              codeName="slackid:"
-                              codeBody="Your slack id. Not your display name!"/>
+                              codeName="userchoice:"
+                              codeBody="Rock, Paper or Scissors"/>
                         </div>
                     </div>
                 {/if}
@@ -675,8 +638,8 @@
                         <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                             <ul>
                                 <li>
-                                    <p>Starts a new arcade session without having to go to Slack!</p>
-                                    <img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
+                                    <p>The game!</p>
+                                    <img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="funex/RpsSuccess.png" alt="">
                                 </li>
                             </ul>
                         </div>

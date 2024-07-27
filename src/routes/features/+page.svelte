@@ -8,6 +8,7 @@
     import Minecraft from "../../featuredocs/Minecraft.svelte"
     import Ticketing from "../../featuredocs/Ticketing.svelte"
     import Utility from "../../featuredocs/Utility.svelte"
+    import Animals from "../../featuredocs/Animals.svelte"
 </script>
 
 <div class="flex">
@@ -26,6 +27,9 @@
     <li class="flex justify-center my-2">
             <a href="/features" on:click={() => (featureDocState = Birthday)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Birthday</button></a>
     </li>
+      <li class="flex justify-center my-2">
+        <a href="/features" on:click={() => (featureDocState = Animals)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Animals</button></a>
+      </li>
     <li class="flex justify-center my-2">
             <a href="/features" on:click={() => (featureDocState = Economy)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Economy</button></a>
     </li>
