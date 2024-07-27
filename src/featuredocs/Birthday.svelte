@@ -84,7 +84,7 @@
 						<ul>
 							<li>
 								<p>Registers your birthday to Fira!</p>
-								<img class="flex w-[100%] h-[200px] mt-2" src="birthdayex/successfulBirthday.png" alt="">
+								<img class="flex rounded-2xl w-[100%] h-[200px] mt-2" src="birthdayex/successfulBirthday.png" alt="">
 							</li>
 						</ul>
 					</div>

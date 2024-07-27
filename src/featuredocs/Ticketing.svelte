@@ -75,7 +75,7 @@
 						<ul>
 							<li>
 								<p>Sends the ticket and saves it!</p>
-								<img class="flex w-[100%] h-auto mt-2" src="ticketingex/successfulTicket.png" alt="">
+								<img class="flex w-[100%] rounded-2xl h-auto mt-2" src="ticketingex/successfulTicket.png" alt="">
 							</li>
 						</ul>
 					</div>
@@ -196,7 +196,7 @@
 						<ul>
 							<li>
 								<p>Saves the ticket channel to Fira!</p>
-								<img class="flex w-[100%] h-auto mt-2" src="ticketingex/successfulTicketChannel.png" alt="">
+								<img class="flex rounded-2xl w-[100%] h-auto mt-2" src="ticketingex/successfulTicketChannel.png" alt="">
 							</li>
 						</ul>
 					</div>

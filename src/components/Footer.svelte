@@ -20,13 +20,13 @@
                 <a href="/features">Features</a>
             </li>
             <li class="mb-4 text-[#ccb997] text-sm">
-                <a href="/docs">Documentation</a>
+                <a href="/installation">Installation</a>
             </li>
             <li class="mb-4 text-[#ccb997] text-sm">
                     <a href="/about">About Us</a>
             </li>
             <li class="mb-4 text-[#ccb997] text-sm">
-                    <a href="/contactus">Contact Us</a>
+                    <a href="mailto:aaryan.narayan@outlook.com">Contact Us</a>
             </li>
             </ul>
         </div>

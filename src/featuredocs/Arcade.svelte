@@ -77,7 +77,7 @@
 						<ul>
 							<li>
 								<p>Return the amount of sessions and time on Hack Club Arcade!</p>
-								<img class="flex w-[100%] h-auto mt-2" src="arcadeex/arcadestats.png" alt="">
+								<img class="flex rounded-2xl w-[100%] h-auto mt-2" src="arcadeex/arcadestats.png" alt="">
 							</li>
 						</ul>
 					</div>
@@ -193,7 +193,7 @@
 						<ul>
 							<li>
 								<p>Starts a new arcade session without having to go to Slack!</p>
-								<img class="flex w-[100%] h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
+								<img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
 							</li>
 						</ul>
 					</div>

@@ -75,7 +75,7 @@
 						<ul>
 							<li>
 								<p>Collects a daily amount of coins!</p>
-								<img class="flex w-[100%] h-auto mt-2" src="economyex/successfulDaily.png" alt="">
+								<img class="flex rounded-2xl w-[100%] h-auto mt-2" src="economyex/successfulDaily.png" alt="">
 							</li>
 						</ul>
 					</div>
@@ -200,7 +200,7 @@
 						<ul>
 							<li>
 								<p>Starts a new arcade session without having to go to Slack!</p>
-								<img class="flex w-[100%] h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
+								<img class="flex w-[100%] rounded-2xl h-[200px] mt-2" src="arcadeex/newArcadeSessionSuccess.png" alt="">
 							</li>
 						</ul>
 					</div>

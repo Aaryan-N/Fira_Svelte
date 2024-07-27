@@ -74,7 +74,7 @@
                         <ul>
                             <li>
                                 <p>Return the message of the day for a given minecraft server!</p>
-                                <img class="flex w-[100%] h-[200px] mt-2" src="minecraftex/motdExample.jpg" alt="">
+                                <img class="flex rounded-2xl w-[100%] h-[200px] mt-2" src="minecraftex/motdExample.jpg" alt="">
                             </li>
                         </ul>
                     </div>
