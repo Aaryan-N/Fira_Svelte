@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="ALRIGHT THE ACCORDIAN WORKS!">
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="we up and we making">
+      <change afterPath="$PROJECT_DIR$/static/minecraftex/motdExample.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
     "git-widget-placeholder": "production",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Website",
+    "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Svelte/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,17 +95,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static" />
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static\minecraftex" />
       <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\features" />
       <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\docs" />
       <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\contactus" />
-      <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static\minecraftex" />
       <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\static" />
       <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\layout" />
       <recent name="C:\Users\aarya\WebstormProjects\Inferna_Svelte" />
       <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\src\pages\home" />
-      <recent name="C:\Users\aarya\WebstormProjects\Hydra_React\src\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,7 +156,7 @@
       <workItem from="1721460964235" duration="24550000" />
       <workItem from="1721998360477" duration="176000" />
       <workItem from="1721998548842" duration="65000" />
-      <workItem from="1721998780744" duration="15345000" />
+      <workItem from="1721998780744" duration="18119000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -339,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722034823361</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="we up and we making">
+      <option name="closed" value="true" />
+      <created>1722039795025</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722039795025</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +391,8 @@
     <MESSAGE value="Well im trying to get this accordion to work but its playing me instead" />
     <MESSAGE value="Finally the accordian works but trying to animate this stuff" />
     <MESSAGE value="ALRIGHT THE ACCORDIAN WORKS!" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALRIGHT THE ACCORDIAN WORKS!" />
+    <MESSAGE value="we up and we making" />
+    <option name="LAST_COMMIT_MESSAGE" value="we up and we making" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

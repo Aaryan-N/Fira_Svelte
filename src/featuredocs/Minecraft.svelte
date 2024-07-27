@@ -7,10 +7,10 @@
 
 
 <div>
-    <h1 class="text-xl text-[#FFE7BC] ml-1 mb-1">Minecraft Commands</h1>
+    <h1 class="text-xl text-[#FFE7BC] ml-1 mb-1 font-bold">Minecraft Commands:</h1>
     <hr class="border-[#FFE7BC] ml-1 mr-1.5 mb-1" />
     <div>
-    <div class="flex justify-start border-[#FFE7BC] w-auto h-auto ml-1">
+    <div class="flex justify-start items-center border-[#FFE7BC] w-auto h-auto ml-1">
             <p class="text-[#FFE7BC] text-xl">Message of the day</p>
         <span class="bg-gray-800 rounded  ml-2 px-4 p-0.5">
         <span class="flex 1 text-[#FFE7BC]">
@@ -79,6 +79,7 @@
                         <ul>
                             <li>
                                 <p>Return the message of the day for a given minecraft server!</p>
+                                <img class="flex w-[100%] h-[200px] mt-2" src="minecraftex/motdExample.jpg" alt="">
                             </li>
                         </ul>
                     </div>
@@ -110,7 +111,7 @@
                     <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
                     <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                         <div class="grid grid-cols-1 flex">
-                        <h1 class="text-lg mb-1">Error Code: 4200</h1>
+                        <h1 class="text-base mb-1">Error Code: 4200</h1>
                         <hr class="border-[#FFE7BC]" />
                         <p class="mt-2 mb-1 ">You have entered an invalid URL. Please enter an actual url!</p>
                             <span class="bg-gray-800 rounded">
@@ -121,6 +122,35 @@
                          </span>
                         </div>
                     </div>
+
+
+                    <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
+                        <div class="grid grid-cols-1 flex">
+                            <h1 class="text-base mb-1">Error Code: 4800</h1>
+                            <hr class="border-[#FFE7BC]" />
+                            <p class="mt-2 mb-1 ">You have entered an invalid Minecraft Server. Either this server is down or invalid. Please try again!</p>
+                            <span class="bg-gray-800 rounded">
+                             <span class="flex 1 text-[#FFE7BC] px-1 p-1">
+                                <span class="font-bold">Example:&nbsp;</span>
+                            <span>mc.hypixel.net</span>
+                            </span>
+                         </span>
+                        </div>
+                </div>
+
+                    <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
+                        <div class="grid grid-cols-1 flex">
+                            <h1 class="text-base mb-1">If you encounter any other errors:</h1>
+                            <hr class="border-[#FFE7BC]" />
+                            <p class="mt-2 mb-1 ">Don't hesitate to join the support server and make a ticket!</p>
+                            <span class="bg-gray-800 rounded">
+                             <span class="flex 1 text-[#FFE7BC] px-1 p-1">
+                                <span class="font-bold">Support Server Link:&nbsp;</span>
+                            <span>/support</span>
+                            </span>
+                         </span>
+                        </div>
+                </div>
                 </div>
             {/if}
         </div>
