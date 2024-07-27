@@ -2,6 +2,8 @@
     let motdParameterDropdown = false;
     let motdResultsDropdown = false;
     let motdErrorsDropdown = false;
+    import CommandBlock from '../components/template/CommandBlock.svelte';
+    import CodeBlock from '../components/template/CodeBlock.svelte';
     import { slide } from 'svelte/transition'
 </script>
 
@@ -12,12 +14,8 @@
     <div>
     <div class="flex justify-start items-center border-[#FFE7BC] w-auto h-auto ml-1">
             <p class="text-[#FFE7BC] text-xl">Message of the day</p>
-        <span class="bg-gray-800 rounded  ml-2 px-4 p-0.5">
-        <span class="flex 1 text-[#FFE7BC]">
-            <span>/</span>
-            <span>motd</span>
-        </span>
-        </span>
+        <CommandBlock
+        commandString="motd"/>
     </div>
 
     <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
@@ -42,12 +40,9 @@
             <div transition:slide>
             <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
             <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
-                <span class="bg-gray-800 rounded ml-1 p-1">
-                <span class="flex 1 text-[#FFE7BC] px-1">
-                    <span class="font-bold">serveraddress:&nbsp;</span>
-                    <span>A minecraft server address</span>
-                </span>
-            </span>
+                <CodeBlock
+                codeName="serveraddress:"
+                codeBody="A Minecraft server address. e.g mc.hypixel.net"/>
             </div>
             </div>
         {/if}
@@ -114,12 +109,12 @@
                         <h1 class="text-base mb-1">Error Code: 4200</h1>
                         <hr class="border-[#FFE7BC]" />
                         <p class="mt-2 mb-1 ">You have entered an invalid URL. Please enter an actual url!</p>
-                            <span class="bg-gray-800 rounded">
-                             <span class="flex 1 text-[#FFE7BC] px-1 p-1">
-                                <span class="font-bold">Example:&nbsp;</span>
-                            <span>mc.hypixel.net</span>
-                            </span>
-                         </span>
+                            <div>
+                            <CodeBlock
+                              codeName="Example:"
+                              codeBody="mc.hypixel.net"
+                            />
+                            </div>
                         </div>
                     </div>
 
@@ -129,12 +124,12 @@
                             <h1 class="text-base mb-1">Error Code: 4800</h1>
                             <hr class="border-[#FFE7BC]" />
                             <p class="mt-2 mb-1 ">You have entered an invalid Minecraft Server. Either this server is down or invalid. Please try again!</p>
-                            <span class="bg-gray-800 rounded">
-                             <span class="flex 1 text-[#FFE7BC] px-1 p-1">
-                                <span class="font-bold">Example:&nbsp;</span>
-                            <span>mc.hypixel.net</span>
-                            </span>
-                         </span>
+                            <div>
+                            <CodeBlock
+                              codeName="Example:"
+                              codeBody="mc.hypixel.net"
+                            />
+                            </div>
                         </div>
                 </div>
 
@@ -143,12 +138,11 @@
                             <h1 class="text-base mb-1">If you encounter any other errors:</h1>
                             <hr class="border-[#FFE7BC]" />
                             <p class="mt-2 mb-1 ">Don't hesitate to join the support server and make a ticket!</p>
-                            <span class="bg-gray-800 rounded">
-                             <span class="flex 1 text-[#FFE7BC] px-1 p-1">
-                                <span class="font-bold">Support Server Link:&nbsp;</span>
-                            <span>/support</span>
-                            </span>
-                         </span>
+                            <div>
+                                <CodeBlock
+                                codeName="Support Server Link:"
+                                codeBody="/support"/>
+                            </div>
                         </div>
                 </div>
                 </div>
