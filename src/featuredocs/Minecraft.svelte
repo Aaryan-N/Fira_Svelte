@@ -106,7 +106,7 @@
                     <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
                     <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                         <div class="grid grid-cols-1 flex">
-                        <h1 class="text-base mb-1">Error Code: 4200</h1>
+                        <h1 class="text-base mb-1">Error Code: 4202</h1>
                         <hr class="border-[#FFE7BC]" />
                         <p class="mt-2 mb-1 ">You have entered an invalid URL. Please enter an actual url!</p>
                             <div>
@@ -121,7 +121,7 @@
 
                     <div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
                         <div class="grid grid-cols-1 flex">
-                            <h1 class="text-base mb-1">Error Code: 4800</h1>
+                            <h1 class="text-base mb-1">Error Code: 4203</h1>
                             <hr class="border-[#FFE7BC]" />
                             <p class="mt-2 mb-1 ">You have entered an invalid Minecraft Server. Either this server is down or invalid. Please try again!</p>
                             <div>

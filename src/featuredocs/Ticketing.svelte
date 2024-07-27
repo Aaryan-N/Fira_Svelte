@@ -104,7 +104,7 @@
 				<div transition:slide>
 					<div class="text-sm pt-1 ml-2 mb-2 flex text-[#FFE7BC]">
 						<div class="grid grid-cols-1 flex">
-							<h1 class="text-base mb-1">Error Code: 4200</h1>
+							<h1 class="text-base mb-1">Error Code: 4204</h1>
 							<hr class="border-[#FFE7BC]" />
 							<p class="mt-2 mb-1 ">The ticketing channel has not been configured. Please message the server moderators to change this.</p>
 							<div>
