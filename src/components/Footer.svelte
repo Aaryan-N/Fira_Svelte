@@ -2,11 +2,9 @@
     const copyrightYear = new Date;
 </script>
 <footer class="w-full h-auto bg-gradient-to-t from-[#302134] to-[#412534] flex-1">
-    <div class="pt-2 pl-2  w-full">
-        <a href="/" class="flex items-center">
-        <img class="w-[75px] h-[75px] rounded-full float-left" src="/FiraLogo.jpeg" alt="Fira Logo">
-        <p class="pl-2 text-xl text-[#FFE7BC]">Fira</p>
-        </a>
+    <div class="pt-2 pl-2 w-full flex items-center">
+        <a href="/"><img class="w-[75px] h-[75px] rounded-full float-left" src="/FiraLogo.jpeg" alt="Fira Logo"></a>
+        <a href="/"><p class="pl-2 text-xl text-[#FFE7BC]">Fira</p></a>
     </div>
 
     <hr class="my-6 border-[#FFE7BC] ml-1.5 mr-1.5" />
@@ -16,7 +14,7 @@
             <p class="mb-4 text-[#FFE7BC] text-lg">Fira</p>
             <ul class="font-medium">
             <li class="mb-4 text-[#ccb997] text-sm">
-                    <a href="/features">Home</a>
+                    <a href="/">Home</a>
             </li>
             <li class="mb-4 text-[#ccb997] text-sm">
                 <a href="/features">Features</a>

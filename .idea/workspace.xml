@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Added a new arcade features area and changed the favicon">
-      <change afterPath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Added new menu and general improvements">
       <change afterPath="$PROJECT_DIR$/src/routes/layout.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/arcadeex/newArcadeSessionSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Arcade.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Arcade.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/features/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/features/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/CommandBlock.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/CommandBlock.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +167,7 @@
       <workItem from="1721998360477" duration="176000" />
       <workItem from="1721998548842" duration="65000" />
       <workItem from="1721998780744" duration="21952000" />
-      <workItem from="1722047589368" duration="6977000" />
+      <workItem from="1722047589368" duration="9568000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -384,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722059528873</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added new menu and general improvements">
+      <option name="closed" value="true" />
+      <created>1722065150416</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722065150416</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +412,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Creating a navbar and adding light and dark mode functionality" />
     <MESSAGE value="Added dashboard with light and dark functionality" />
     <MESSAGE value="Finished up learning routing" />
     <MESSAGE value="Didn't get much done will most probably will have to properly design the website before jumping right in (who would have thought?)" />
@@ -428,7 +436,8 @@
     <MESSAGE value="Cleaned up the footer and finished up the minecraft section of the commands" />
     <MESSAGE value="Templating a few things and yeah its looking good and my dependencies decided they didn't want to be here anymore " />
     <MESSAGE value="Added a new arcade features area and changed the favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new arcade features area and changed the favicon" />
+    <MESSAGE value="Added new menu and general improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new menu and general improvements" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
