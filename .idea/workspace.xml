@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Changing some ticketing and intro">
-      <change afterPath="$PROJECT_DIR$/static/ticketingex/successfulTicket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ticketingex/successfulTicketChannel.png" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Finished up the economy features page">
+      <change afterPath="$PROJECT_DIR$/static/birthdayex/successfulBirthday.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Economy.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Economy.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featuredocs/Birthday.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Birthday.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/layout.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
     </list>
@@ -167,7 +164,7 @@
       <workItem from="1721998360477" duration="176000" />
       <workItem from="1721998548842" duration="65000" />
       <workItem from="1721998780744" duration="21952000" />
-      <workItem from="1722047589368" duration="14758000" />
+      <workItem from="1722047589368" duration="18837000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -409,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722070957089</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Finished up the economy features page">
+      <option name="closed" value="true" />
+      <created>1722074607907</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1722074607910</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finished up learning routing" />
     <MESSAGE value="Didn't get much done will most probably will have to properly design the website before jumping right in (who would have thought?)" />
     <MESSAGE value="Figma was overrated anyways" />
     <MESSAGE value="Adding some more pages" />
@@ -453,7 +457,8 @@
     <MESSAGE value="Added a new arcade features area and changed the favicon" />
     <MESSAGE value="Added new menu and general improvements" />
     <MESSAGE value="Changing some ticketing and intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing some ticketing and intro" />
+    <MESSAGE value="Finished up the economy features page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished up the economy features page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
