@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Finally the accordian works but trying to animate this stuff">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="ALRIGHT THE ACCORDIAN WORKS!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +153,7 @@
       <workItem from="1721460964235" duration="24550000" />
       <workItem from="1721998360477" duration="176000" />
       <workItem from="1721998548842" duration="65000" />
-      <workItem from="1721998780744" duration="11845000" />
+      <workItem from="1721998780744" duration="15345000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -343,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722008961679</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ALRIGHT THE ACCORDIAN WORKS!">
+      <option name="closed" value="true" />
+      <created>1722034823361</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722034823361</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +379,8 @@
     <MESSAGE value="CSS should be outlawed" />
     <MESSAGE value="Well im trying to get this accordion to work but its playing me instead" />
     <MESSAGE value="Finally the accordian works but trying to animate this stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally the accordian works but trying to animate this stuff" />
+    <MESSAGE value="ALRIGHT THE ACCORDIAN WORKS!" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALRIGHT THE ACCORDIAN WORKS!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
