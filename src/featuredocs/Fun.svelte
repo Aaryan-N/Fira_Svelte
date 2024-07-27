@@ -1,19 +1,25 @@
 <script>
+    let eightBallDescDropdown = false;
     let eightBallParameterDropdown = false;
     let eightBallResultsDropdown = false;
     let eightBallErrorsDropdown = false;
+    let dadJokeDescDropdown = false;
     let dadJokeParameterDropdown = false;
     let dadJokeResultsDropdown = false;
     let dadJokeErrorsDropdown = false;
+    let factsDescDropdown = false;
     let factsParameterDropdown = false;
     let factsResultsDropdown = false;
     let factsErrorsDropdown = false;
+    let jokeDescDropdown = false;
     let jokeParameterDropdown = false;
     let jokeResultsDropdown = false;
     let jokeErrorsDropdown = false;
+    let memesDescDropdown = false;
     let memesParameterDropdown = false;
     let memesResultsDropdown = false;
     let memesErrorsDropdown = false;
+    let rpsDescDropdown = false;
     let rpsParameterDropdown = false;
     let rpsResultsDropdown = false;
     let rpsErrorsDropdown = false;
@@ -31,6 +37,33 @@
             <p class="text-[#FFE7BC] text-xl">8 Ball</p>
             <CommandBlock
               commandString="8ball"/>
+        </div>
+        <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+            <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => eightBallDescDropdown = !eightBallDescDropdown} on:click={() => eightBallDescDropdown = !eightBallDescDropdown}>
+                <button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+                {#if !eightBallDescDropdown}
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                        </svg>
+                    </div>
+                {/if}
+                {#if eightBallDescDropdown}
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                        </svg>
+                    </div>
+                {/if}
+            </div>
+            {#if eightBallDescDropdown}
+                <div transition:slide>
+                    <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+                    <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                        <h1 class="ml-1">Ask the 8 Ball what you want!</h1>
+                    </div>
+                </div>
+            {/if}
         </div>
 
         <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
@@ -148,6 +181,33 @@
             <CommandBlock
               commandString="dadjoke"/>
         </div>
+        <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+            <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => dadJokeDescDropdown = !dadJokeDescDropdown} on:click={() => dadJokeDescDropdown = !dadJokeDescDropdown}>
+                <button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+                {#if !dadJokeDescDropdown}
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                        </svg>
+                    </div>
+                {/if}
+                {#if dadJokeDescDropdown}
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                        </svg>
+                    </div>
+                {/if}
+            </div>
+            {#if dadJokeDescDropdown}
+                <div transition:slide>
+                    <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+                    <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                        <h1 class="ml-1">Replies with a (slightly corny) dad joke</h1>
+                    </div>
+                </div>
+            {/if}
+        </div>
 
         <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
             <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => dadJokeParameterDropdown = !dadJokeParameterDropdown} on:click={() => dadJokeParameterDropdown = !dadJokeParameterDropdown}>
@@ -253,6 +313,34 @@
                 <p class="text-[#FFE7BC] text-xl">Facts</p>
                 <CommandBlock
                   commandString="fact"/>
+            </div>
+
+            <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+                <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => factsDescDropdown = !factsDescDropdown} on:click={() => factsDescDropdown = !factsDescDropdown}>
+                    <button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+                    {#if !factsDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                    {#if factsDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                </div>
+                {#if factsDescDropdown}
+                    <div transition:slide>
+                        <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+                        <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                            <h1 class="ml-1">Replies with a fact!</h1>
+                        </div>
+                    </div>
+                {/if}
             </div>
 
             <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
@@ -367,6 +455,34 @@
             </div>
 
             <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+                <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => jokeDescDropdown = !jokeDescDropdown} on:click={() => jokeDescDropdown = !jokeDescDropdown}>
+                    <button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+                    {#if !jokeDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                    {#if jokeDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                </div>
+                {#if jokeDescDropdown}
+                    <div transition:slide>
+                        <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+                        <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                            <h1 class="ml-1">Replies with a lovely joke!</h1>
+                        </div>
+                    </div>
+                {/if}
+            </div>
+
+            <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
                 <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => jokeParameterDropdown = !jokeParameterDropdown} on:click={() => jokeParameterDropdown = !jokeParameterDropdown}>
                     <button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Parameters</button>
                     {#if !jokeParameterDropdown}
@@ -472,6 +588,34 @@
                 <p class="text-[#FFE7BC] text-xl">Memes</p>
                 <CommandBlock
                   commandString="memes"/>
+            </div>
+
+            <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+                <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => memesDescDropdown = !memesDescDropdown} on:click={() => memesDescDropdown = !memesDescDropdown}>
+                    <button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+                    {#if !memesDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                    {#if memesDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                </div>
+                {#if memesDescDropdown}
+                    <div transition:slide>
+                        <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+                        <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                            <h1 class="ml-1">Replies with an alright meme!</h1>
+                        </div>
+                    </div>
+                {/if}
             </div>
 
             <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
@@ -581,6 +725,34 @@
                 <p class="text-[#FFE7BC] text-xl">RPS</p>
                 <CommandBlock
                   commandString="rps"/>
+            </div>
+
+            <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+                <div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => rpsDescDropdown = !rpsDescDropdown} on:click={() => rpsDescDropdown = !rpsDescDropdown}>
+                    <button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+                    {#if !rpsDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                    {#if rpsDescDropdown}
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                            </svg>
+                        </div>
+                    {/if}
+                </div>
+                {#if rpsDescDropdown}
+                    <div transition:slide>
+                        <hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+                        <div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+                            <h1 class="ml-1">Play a game of rock, paper and scissors with the bot!</h1>
+                        </div>
+                    </div>
+                {/if}
             </div>
 
             <div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">

@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Making the fun feature page">
-      <change afterPath="$PROJECT_DIR$/src/featuredocs/Animals.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/utilityex/statsSuccess.png" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Almost done with the damn features page...">
+      <change afterPath="$PROJECT_DIR$/static/animalex/CatPicSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/animalex/DogPicSuccess.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Arcade.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Arcade.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Birthday.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Birthday.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Economy.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Economy.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Fun.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Fun.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Minecraft.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/features/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/features/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/featuredocs/Utility.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Utility.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,7 @@
       <workItem from="1721998548842" duration="65000" />
       <workItem from="1721998780744" duration="21952000" />
       <workItem from="1722047589368" duration="24645000" />
-      <workItem from="1722085430791" duration="4464000" />
+      <workItem from="1722085430791" duration="6582000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -444,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722086362307</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Almost done with the damn features page...">
+      <option name="closed" value="true" />
+      <created>1722090020401</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1722090020401</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding some more pages" />
     <MESSAGE value="Took a very long time figuring out the colors and shadows. css is so painful" />
     <MESSAGE value="Fixed up the navbar now moving onto the footer" />
     <MESSAGE value="Moved from react to svelte as I decided it would be a better library and it is still early in the project." />
@@ -488,7 +495,8 @@
     <MESSAGE value="Finished up the economy features page" />
     <MESSAGE value="Finished up the birthday features page" />
     <MESSAGE value="Making the fun feature page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making the fun feature page" />
+    <MESSAGE value="Almost done with the damn features page..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost done with the damn features page..." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

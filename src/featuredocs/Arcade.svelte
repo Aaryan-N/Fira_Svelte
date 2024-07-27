@@ -1,7 +1,9 @@
 <script>
+	let arcadeStatsDescDropdown = false;
 	let arcadeStatsParameterDropdown = false;
 	let arcadeStatsResultsDropdown = false;
 	let arcadeStatsErrorsDropdown = false;
+	let arcadeNewSessionDescDropdown = false;
 	let arcadeNewSessionParameterDropdown = false;
 	let arcadeNewSessionResultsDropdown = false;
 	let arcadeNewSessionErrorsDropdown = false;
@@ -19,6 +21,33 @@
 			<p class="text-[#FFE7BC] text-xl">Arcade Statistics</p>
 			<CommandBlock
 				commandString="arcadestats"/>
+		</div>
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => arcadeStatsDescDropdown = !arcadeStatsDescDropdown} on:click={() => arcadeStatsDescDropdown = !arcadeStatsDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !arcadeStatsDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if arcadeStatsDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if arcadeStatsDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Replies with your arcade stats! Api key is in the .env file so change that!</h1>
+					</div>
+				</div>
+			{/if}
 		</div>
 
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
@@ -131,7 +160,34 @@
 			<CommandBlock
 				commandString="newarcadesession"/>
 		</div>
-
+		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
+			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => arcadeNewSessionDescDropdown = !arcadeNewSessionDescDropdown} on:click={() => arcadeNewSessionDescDropdown = !arcadeNewSessionDescDropdown}>
+				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Description</button>
+				{#if !arcadeNewSessionDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+				{#if arcadeNewSessionDescDropdown}
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-5 h-5">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m15 11.25-3-3m0 0-3 3m3-3v7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+						</svg>
+					</div>
+				{/if}
+			</div>
+			{#if arcadeNewSessionDescDropdown}
+				<div transition:slide>
+					<hr class="border-[#FFE7BC] pl-0.5 ml-2 mr-1.5 mb-1" />
+					<div class="text-sm pt-1 ml-1 mb-2 flex text-[#FFE7BC]">
+						<h1 class="ml-1">Create a new arcade session!</h1>
+					</div>
+				</div>
+			{/if}
+		</div>	
+		
 		<div class="ml-1 mt-1 bg-[#302134] w-full h-auto flex px-2 rounded-xl container grid grid-cols-1 cursor-pointer">
 			<div class="inline-flex items-center justify-between w-full rounded py-2 px-2" aria-hidden="true" on:keydown={() => arcadeNewSessionParameterDropdown = !arcadeNewSessionParameterDropdown} on:click={() => arcadeNewSessionParameterDropdown = !arcadeNewSessionParameterDropdown}>
 				<button class="text-[#FFE7BC] cursor-pointer pl-0.5 pt-[1px] w-[100%] text-left border-none duration-300">Parameters</button>
