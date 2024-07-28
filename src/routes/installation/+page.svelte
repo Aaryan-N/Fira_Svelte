@@ -21,7 +21,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="w-[100%] h-auto bg-[#313338] flex justify-center">
+	<div class="w-[100%] h-auto bg-[#313338]">
 		<div class="p-2">
 			<svelte:component this={installationDocState} />
 		</div>
