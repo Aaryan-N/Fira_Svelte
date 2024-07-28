@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Almost done with the features page!">
-      <change afterPath="$PROJECT_DIR$/static/animalex/CatPicSuccess.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Economy.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Economy.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Ticketing.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Utility.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Utility.svelte" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Done with the features page!">
+      <change afterPath="$PROJECT_DIR$/src/installationdocs/addToServer.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/installationdocs/configurationDocs.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/installationdocs/installationIntro.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/installation/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/installation/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,9 @@
         <option value="JavaScript File" />
         <option value="FeatureIntro" />
         <option value="Animals" />
+        <option value="installationIntro" />
+        <option value="addToServer" />
+        <option value="configurationDocs" />
       </list>
     </option>
   </component>
@@ -164,7 +167,7 @@
       <workItem from="1721998548842" duration="65000" />
       <workItem from="1721998780744" duration="21952000" />
       <workItem from="1722047589368" duration="24645000" />
-      <workItem from="1722085430791" duration="7082000" />
+      <workItem from="1722085430791" duration="13732000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -454,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722093749223</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Done with the features page!">
+      <option name="closed" value="true" />
+      <created>1722119826849</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1722119826850</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed up the navbar now moving onto the footer" />
     <MESSAGE value="Moved from react to svelte as I decided it would be a better library and it is still early in the project." />
     <MESSAGE value="Learning how to do routing and pages in svelte" />
     <MESSAGE value="Working on the navbar" />
@@ -498,7 +508,8 @@
     <MESSAGE value="Making the fun feature page" />
     <MESSAGE value="Almost done with the damn features page..." />
     <MESSAGE value="Almost done with the features page!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost done with the features page!" />
+    <MESSAGE value="Done with the features page!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with the features page!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
