@@ -7,6 +7,9 @@
 	import Minecraft from './Minecraft.svelte'
 	import Ticketing from './Ticketing.svelte'
 	import Utility from './Utility.svelte'
+	import Color from "./Color.svelte"
+	import Domain from "./Domain.svelte"
+	import Writing from "./Writing.svelte"
 </script>
 <div>
 	<div class="ml-1 mb-4">
@@ -28,6 +31,10 @@
 	</div>
 
 	<div class="mt-[10px]">
+		<Color/>
+	</div>
+
+	<div class="mt-[10px]">
 	<Animals/>
 	</div>
 
@@ -40,11 +47,19 @@
 	</div>
 
 	<div class="mt-[10px]">
+		<Domain/>
+	</div>
+
+	<div class="mt-[10px]">
 	<Ticketing/>
 	</div>
 
 	<div class="mt-[10px]">
 	<Utility/>
+	</div>
+
+	<div class="mt-[10px]">
+		<Writing/>
 	</div>
 
 </div>
