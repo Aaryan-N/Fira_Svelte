@@ -9,6 +9,9 @@
     import Ticketing from "../../featuredocs/Ticketing.svelte"
     import Utility from "../../featuredocs/Utility.svelte"
     import Animals from "../../featuredocs/Animals.svelte"
+    import Color from "../../featuredocs/Color.svelte"
+    import Domain from "../../featuredocs/Domain.svelte"
+    import Writing from "../../featuredocs/Writing.svelte"
 </script>
 
 <div class="flex">
@@ -28,6 +31,9 @@
             <a href="/features" on:click={() => (featureDocState = Birthday)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Birthday</button></a>
     </li>
       <li class="flex justify-center my-2">
+        <a href="/features" on:click={() => (featureDocState = Color)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Colors</button></a>
+      </li>
+      <li class="flex justify-center my-2">
         <a href="/features" on:click={() => (featureDocState = Animals)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Animals</button></a>
       </li>
     <li class="flex justify-center my-2">
@@ -36,12 +42,18 @@
     <li class="flex justify-center my-2">
             <a href="/features" on:click={() => (featureDocState = Minecraft)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Minecraft</button></a>
     </li>
+      <li class="flex justify-center my-2">
+        <a href="/features" on:click={() => (featureDocState = Domain)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Domain</button></a>
+      </li>
     <li class="flex justify-center my-2">
             <a href="/features" on:click={() => (featureDocState = Ticketing)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Ticketing</button></a>
         </li>
         <li class="flex justify-center my-2">
             <a href="/features" on:click={() => (featureDocState = Utility)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Utility</button></a>
         </li>
+      <li class="flex justify-center my-2">
+        <a href="/features" on:click={() => (featureDocState = Writing)}><button class="bg-slate-300 hover:bg-slate-500 rounded-xl w-[120px] h-[30px] flex-1">Writing</button></a>
+      </li>
     </ul>
     </div>
 </div>
