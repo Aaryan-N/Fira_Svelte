@@ -32,6 +32,7 @@
 		"@sveltejs/adapter-node": "^5.2.0",
 		"axios": "^1.7.3",
 		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
 		"koa": "^2.15.3",
 		"koa-bodyparser": "^4.4.1",
 		"mongoose": "^8.5.2"

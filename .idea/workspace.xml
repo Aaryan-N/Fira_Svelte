@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="I think I will use a diff method of routing">
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="ALRIGHTTTT ROUTING WORKSSSS">
+      <change afterPath="$PROJECT_DIR$/src/models/userModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +60,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/server.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/models/userModel.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProblemsViewState">
@@ -186,7 +188,7 @@
       <workItem from="1722671351559" duration="3000" />
       <workItem from="1722674846867" duration="619000" />
       <workItem from="1723104079794" duration="2539000" />
-      <workItem from="1723106667219" duration="14820000" />
+      <workItem from="1723106667219" duration="20149000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -540,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723122879742</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="ALRIGHTTTT ROUTING WORKSSSS">
+      <option name="closed" value="true" />
+      <created>1723127136978</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1723127136978</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +569,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Polished the footer and working on the features page" />
     <MESSAGE value="Buttons and now components work now!!!" />
     <MESSAGE value="CSS should be outlawed" />
     <MESSAGE value="Well im trying to get this accordion to work but its playing me instead" />
@@ -584,7 +593,8 @@
     <MESSAGE value="Initial bit of routing" />
     <MESSAGE value="Trying to do routing but its being a pain" />
     <MESSAGE value="I think I will use a diff method of routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="I think I will use a diff method of routing" />
+    <MESSAGE value="ALRIGHTTTT ROUTING WORKSSSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALRIGHTTTT ROUTING WORKSSSS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -2,6 +2,8 @@ import express from 'express';
 import { handler } from './build/handler.js'
 import 'dotenv/config'
 import axios from 'axios';
+import { usersSchemaExport } from './src/models/userModel.js';
+
 
 const app = express();
 const port = 3000;
@@ -37,9 +39,35 @@ app.get('/auth/discord/callback', async (req, res) => {
 			headers
 		}
 	);
-
-	console.log(response.data)
 	
+	const userResponse = await axios.get(
+		'https://discord.com/api/users/@me', {
+			headers: {
+				authorization: `Bearer ${response.data.access_token}`,
+			}
+		});
+
+	let userOAuthInfo = await usersSchemaExport.findOne({
+		userId: response.data.id
+	});
+	
+	if (userOAuthInfo) {
+		userOAuthInfo.username = userResponse.data.username
+		userOAuthInfo.avatar = userResponse.data.avatar
+		userOAuthInfo.global_name = userResponse.data.global_name
+		userOAuthInfo.save()
+	} else {
+		userOAuthInfo = new usersSchemaExport({
+			userId: userResponse.data.id,
+			username: userResponse.data.username,
+			avatar: userResponse.data.avatar,
+			global_name: userResponse.data.global_name
+		})
+		await userOAuthInfo.save();
+	}
+	
+	console.log(userResponse.data);
+
 })
 
 app.use(handler)
