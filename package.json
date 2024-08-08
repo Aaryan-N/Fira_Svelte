@@ -29,6 +29,7 @@
 		"axios": "^1.7.3",
 		"dotenv": "^16.4.5",
 		"koa": "^2.15.3",
-		"koa-bodyparser": "^4.4.1"
+		"koa-bodyparser": "^4.4.1",
+		"mongoose": "^8.5.2"
 	}
 }
