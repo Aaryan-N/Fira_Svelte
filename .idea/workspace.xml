@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Initial bit of routing">
-      <change afterPath="$PROJECT_DIR$/oAuthRouter/models/guildModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oAuthRouter/src/connectDatabase.js" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Trying to do routing but its being a pain">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oAuthRouter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/oAuthRouter/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oAuthRouter/models/guildModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/guildModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oAuthRouter/src/connectDatabase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/connectDatabase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oAuthRouter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +61,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/oAuthRouter/models/guildModel.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/oAuthRouter/src/connectDatabase.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/oAuthRouter/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/server.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProblemsViewState">
@@ -82,33 +79,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.index.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;production&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aaryan/Projects/Fira_Svelte/oAuthRouter/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ide.date.format&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Node.js.index.cjs.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "production",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Svelte",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm dev.executor": "Run",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "ide.date.format",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -120,11 +117,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\oAuthRouter\src" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte" />
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src\models" />
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src" />
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\oAuthRouter\src" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static" />
-      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static\minecraftex" />
-      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static\minecraftex" />
@@ -192,7 +189,7 @@
       <workItem from="1722671351559" duration="3000" />
       <workItem from="1722674846867" duration="619000" />
       <workItem from="1723104079794" duration="2539000" />
-      <workItem from="1723106667219" duration="7222000" />
+      <workItem from="1723106667219" duration="10549000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -530,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723108360936</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Trying to do routing but its being a pain">
+      <option name="closed" value="true" />
+      <created>1723116770346</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1723116770347</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Whoo a lot of css work!" />
     <MESSAGE value="Finished up the footer" />
     <MESSAGE value="Polished the footer and working on the features page" />
     <MESSAGE value="Buttons and now components work now!!!" />
@@ -574,7 +578,8 @@
     <MESSAGE value="Added some more features pages" />
     <MESSAGE value="Finished color page and other to be in accordance with the bot" />
     <MESSAGE value="Initial bit of routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial bit of routing" />
+    <MESSAGE value="Trying to do routing but its being a pain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to do routing but its being a pain" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

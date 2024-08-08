@@ -1,4 +1,4 @@
-import { connectDBs } from '../src/connectDatabase.js';
+import { connectDBs } from './connectDatabase.js';
 import mongoose from 'mongoose';
 
 const guildSchema = mongoose.Schema({
