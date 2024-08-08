@@ -22,6 +22,8 @@
             </ul>
     </div>
     <div>
+        <a href="/auth/discord/login">
         <button class="bg-[#FFE7BC] text-black px-5 py-2 rounded-full hover:bg-[#ffffff] mr-2.5">Sign In</button>
+        </a>
     </div>
 </nav>

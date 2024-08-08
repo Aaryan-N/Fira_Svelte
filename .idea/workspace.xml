@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Finished color page and other to be in accordance with the bot">
+      <change afterPath="$PROJECT_DIR$/oAuthRouter/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/colorex/colorConvertSuccess.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/static/colorex/randomColorSuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/domainex/domainLookupSuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/writingex/poetrySuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/writingex/quoteSuccess.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/Color.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/Color.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/featuredocs/FeatureIntro.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,10 @@
         <option value="Color" />
         <option value="Domain" />
         <option value="Writing" />
+        <option value="auth" />
+        <option value="discordLogin" />
+        <option value="oauthRouter" />
+        <option value="login" />
       </list>
     </option>
   </component>
@@ -79,12 +82,14 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.index.cjs.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;production&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aaryan/Projects/Fira_Svelte/static&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aaryan/Projects/Fira_Svelte/oAuthRouter/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,11 +115,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\oAuthRouter\src" />
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static\minecraftex" />
       <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\features" />
-      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\docs" />
-      <recent name="C:\Users\aarya\WebstormProjects\Fira_Svelte\src\routes\contactus" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static\minecraftex" />
@@ -177,7 +182,12 @@
       <workItem from="1722133399848" duration="3279000" />
       <workItem from="1722255119843" duration="26000" />
       <workItem from="1722588140190" duration="12000" />
-      <workItem from="1722660888619" duration="4534000" />
+      <workItem from="1722660888619" duration="4619000" />
+      <workItem from="1722666818710" duration="232000" />
+      <workItem from="1722671351559" duration="3000" />
+      <workItem from="1722674846867" duration="619000" />
+      <workItem from="1723104079794" duration="2539000" />
+      <workItem from="1723106667219" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -499,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722662699877</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Finished color page and other to be in accordance with the bot">
+      <option name="closed" value="true" />
+      <created>1722666411354</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1722666411354</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
