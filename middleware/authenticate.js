@@ -1,16 +1,17 @@
-import { createRequire } from "module";
+import { createRequire } from 'module';
+
 const require = createRequire(import.meta.url);
-const cookieParser = require("cookie-parser");
-import express from 'express';
 const jwt = require('jsonwebtoken');
 
-const app = express();
-app.use(cookieParser());
-
-export default async (res, req) => {
-
-
-
-
-
+export const authenticator = async (req, res, next) => {
+	const token = req.cookies.token;
+	console.log(token);
+	try {
+		req.user = await jwt.verify(token, process.env.JWT_SECRET);
+		console.log('verif complete')
+		await next();
+	} catch (e) {
+		res.clearCookie("token")
+		return res.redirect("/auth/discord/login")
+	}
 }
