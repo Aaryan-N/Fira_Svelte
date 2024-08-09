@@ -68,19 +68,23 @@ app.get('/auth/discord/callback', async (req, res) => {
 		userOAuthInfo.username = userResponse.data.username
 		userOAuthInfo.avatar = userResponse.data.avatar
 		userOAuthInfo.global_name = userResponse.data.global_name
+		userOAuthInfo.access_token = response.data.access_token
+		userOAuthInfo.refresh_token = response.data.refresh_token
 		userOAuthInfo.save()
 	} else {
 		userOAuthInfo = new usersSchemaExport({
 			userId: userResponse.data.id,
 			username: userResponse.data.username,
 			avatar: userResponse.data.avatar,
-			global_name: userResponse.data.global_name
+			global_name: userResponse.data.global_name,
+			refresh_token: response.data.refresh_token,
+			access_token: response.data.access_token,
 		})
 		await userOAuthInfo.save();
 	}
 
 	const token = await sign({ sub: userResponse.data.id }, process.env.JWT_SECRET,{
-		expiresIn: '1d',
+		expiresIn: '7d',
 	});
 
 	res.cookie('token', token, {

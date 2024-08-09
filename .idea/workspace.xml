@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Trying some things">
-      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/userModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +43,9 @@
         <option value="login" />
         <option value="server" />
         <option value="+page.svelte" />
-        <option value="JavaScript File" />
         <option value="+error" />
         <option value="+page" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,7 +69,7 @@
     <setting file="file://$PROJECT_DIR$/src/hooks.server.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/lib/server/auth.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/models/userModel.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/routes/dashboard/+page.server.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/routes/dashboard/servers/+page.server.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://file:///C:/Users/Aaryan/Projects/Fira_Svelte/lib/server/auth" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
@@ -201,14 +203,6 @@
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
       <workItem from="1723158157837" duration="18726000" />
-    </task>
-    <task id="LOCAL-00009" summary="Fixed up the navbar now moving onto the footer">
-      <option name="closed" value="true" />
-      <created>1720162798742</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1720162798742</updated>
     </task>
     <task id="LOCAL-00010" summary="Moved from react to svelte as I decided it would be a better library and it is still early in the project.">
       <option name="closed" value="true" />
@@ -594,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723197747652</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Trying some things">
+      <option name="closed" value="true" />
+      <created>1723199399806</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1723199399807</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

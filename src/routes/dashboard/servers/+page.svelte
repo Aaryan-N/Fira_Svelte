@@ -1,4 +1,5 @@
 <script>
-	import axios from 'axios'
-
+	/** @type {import('./$types').PageData} */
+	export let data;
 </script>
+
