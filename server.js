@@ -82,9 +82,11 @@ app.get('/auth/discord/callback', async (req, res) => {
 	res.cookie('token', token, {
 		httpOnly: true,
 	});
-
+	
 	res.redirect(process.env.CLIENT_REDIRECT_URL)
 })
+
+
 
 app.use(handler)
 
