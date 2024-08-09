@@ -1,5 +1,4 @@
 /** @type {import('@sveltejs/kit').RequestEvent} */
-import 'dotenv/config'
 
 export const authenticateUser = (event) => {
 	const { cookies } = event

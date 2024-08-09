@@ -1,10 +1,9 @@
 import { redirect } from '@sveltejs/kit'
-import 
-
+import { createRequire } from "node:module";
+const require = createRequire(import.meta.url);
+const { verify } = require('jsonwebtoken');
+import 'dotenv/config'
 
 export const load = async ({ locals }) => {
-	if (!locals.user) {
-		console.log("rip call mr beast")
-		throw redirect(303, "/")
-	}
+	console.log(locals.user)
 }
