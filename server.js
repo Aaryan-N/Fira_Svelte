@@ -3,10 +3,22 @@ import { handler } from './build/handler.js'
 import 'dotenv/config'
 import axios from 'axios';
 import { usersSchemaExport } from './src/models/userModel.js';
-
+import { createRequire } from "module";
+import authenticate from './middleware/authenticate.js';
+const require = createRequire(import.meta.url);
+const cookieParser = require("cookie-parser");
+const { sign } = require('jsonwebtoken');
 
 const app = express();
 const port = 3000;
+
+
+app.use(cookieParser());
+const router = express.Router();
+
+app.get('/test', (req, res) => {
+	res.send('Welcome to the test!');
+})
 
 app.get("/auth/discord/login", (req, res) => {
 	console.log("Triggered!")
@@ -17,7 +29,7 @@ app.get("/auth/discord/login", (req, res) => {
 app.get('/auth/discord/callback', async (req, res) => {
 	if (!req.query.code) throw new Error("what the sigma");
 	const { code } = req.query;
-	res.send(code);
+	console.log(code)
 
 	const params = new URLSearchParams({
 		client_id: process.env.DISCORD_CLIENT_ID,
@@ -48,10 +60,10 @@ app.get('/auth/discord/callback', async (req, res) => {
 		});
 
 	let userOAuthInfo = await usersSchemaExport.findOne({
-		userId: response.data.id
+		userId: userResponse.data.id
 	});
 	
-	if (userOAuthInfo) {
+	if (userOAuthInfo !== null) {
 		userOAuthInfo.username = userResponse.data.username
 		userOAuthInfo.avatar = userResponse.data.avatar
 		userOAuthInfo.global_name = userResponse.data.global_name
@@ -65,12 +77,25 @@ app.get('/auth/discord/callback', async (req, res) => {
 		})
 		await userOAuthInfo.save();
 	}
-	
-	console.log(userResponse.data);
+
+
+
+	const token = await sign({ sub: userResponse.data.id }, process.env.JWT_SECRET,{
+		expiresIn: '7d',
+	});
+
+	res.cookie('token', token, {
+		httpOnly: true,
+		secure: true,
+	});
+	console.log('Cookie Sent!')
+	res.redirect(process.env.CLIENT_REDIRECT_URL)
+
 
 })
 
 app.use(handler)
+app.use(authenticate);
 
 app.listen(port, () => {
 	console.log("Server running and has started on port: " + port);

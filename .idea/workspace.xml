@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="ALRIGHTTTT ROUTING WORKSSSS">
-      <change afterPath="$PROJECT_DIR$/src/models/userModel.js" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="oauth flow works and now can write to db as well!!!">
+      <change afterPath="$PROJECT_DIR$/middleware/authenticate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/middleware/authenticate.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/server.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/models/userModel.js" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -89,6 +92,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "production",
     "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "22.5.1",
+    "javascript.nodejs.core.library.typings.version": "22.1.0",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Svelte",
     "node.js.detected.package.eslint": "true",
@@ -188,7 +193,9 @@
       <workItem from="1722671351559" duration="3000" />
       <workItem from="1722674846867" duration="619000" />
       <workItem from="1723104079794" duration="2539000" />
-      <workItem from="1723106667219" duration="20149000" />
+      <workItem from="1723106667219" duration="20849000" />
+      <workItem from="1723157850028" duration="129000" />
+      <workItem from="1723158157837" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -550,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723127136978</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="oauth flow works and now can write to db as well!!!">
+      <option name="closed" value="true" />
+      <created>1723157220593</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1723157220594</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +584,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Buttons and now components work now!!!" />
     <MESSAGE value="CSS should be outlawed" />
     <MESSAGE value="Well im trying to get this accordion to work but its playing me instead" />
     <MESSAGE value="Finally the accordian works but trying to animate this stuff" />
@@ -594,7 +608,8 @@
     <MESSAGE value="Trying to do routing but its being a pain" />
     <MESSAGE value="I think I will use a diff method of routing" />
     <MESSAGE value="ALRIGHTTTT ROUTING WORKSSSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALRIGHTTTT ROUTING WORKSSSS" />
+    <MESSAGE value="oauth flow works and now can write to db as well!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="oauth flow works and now can write to db as well!!!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
