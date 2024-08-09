@@ -1,6 +1,10 @@
 import { error } from '@sveltejs/kit';
 
 /** @type {import('./$types').PageLoad} */
-export function load({ parent, data }) {
+export async function load({ parent, data }) {
 	await parent()
+	let { decodedToken } = data
+	return {
+		decodedToken
+	}
 }
