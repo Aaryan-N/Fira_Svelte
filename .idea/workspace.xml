@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="AUTH IS DONNEEEEE">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,14 +195,6 @@
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
       <workItem from="1723158157837" duration="18726000" />
-    </task>
-    <task id="LOCAL-00006" summary="Figma was overrated anyways">
-      <option name="closed" value="true" />
-      <created>1720089119962</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1720089119962</updated>
     </task>
     <task id="LOCAL-00007" summary="Adding some more pages">
       <option name="closed" value="true" />
@@ -590,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723194008589</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="AUTH IS DONNEEEEE">
+      <option name="closed" value="true" />
+      <created>1723194027479</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1723194027479</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

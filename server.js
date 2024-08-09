@@ -85,8 +85,6 @@ app.get('/auth/discord/callback', async (req, res) => {
 	res.redirect(process.env.CLIENT_REDIRECT_URL)
 })
 
-
-
 app.use(handler)
 
 app.listen(port, () => {
