@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Trying to do some cookie business">
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Finally done with cookies my god how hard is it!">
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/+layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/testing.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middleware/authenticate.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/authenticate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="+layout" />
-        <option value="+page.svelte" />
         <option value="Navbar" />
         <option value="featuresAccordian" />
         <option value="CommandBlock" />
@@ -41,6 +41,8 @@
         <option value="oauthRouter" />
         <option value="login" />
         <option value="JavaScript File" />
+        <option value="server" />
+        <option value="+page.svelte" />
       </list>
     </option>
   </component>
@@ -94,7 +96,7 @@
     "javascript.nodejs.core.library.configured.version": "22.5.1",
     "javascript.nodejs.core.library.typings.version": "22.1.0",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Svelte",
+    "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Svelte/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,9 +122,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src\models" />
-      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\oAuthRouter\src" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static" />
     </key>
@@ -194,7 +196,7 @@
       <workItem from="1723104079794" duration="2539000" />
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
-      <workItem from="1723158157837" duration="8462000" />
+      <workItem from="1723158157837" duration="12353000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a navbar">
       <option name="closed" value="true" />
@@ -572,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723169650059</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Finally done with cookies my god how hard is it!">
+      <option name="closed" value="true" />
+      <created>1723174458473</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723174458473</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Well im trying to get this accordion to work but its playing me instead" />
     <MESSAGE value="Finally the accordian works but trying to animate this stuff" />
     <MESSAGE value="ALRIGHT THE ACCORDIAN WORKS!" />
     <MESSAGE value="we up and we making" />
@@ -616,7 +625,8 @@
     <MESSAGE value="ALRIGHTTTT ROUTING WORKSSSS" />
     <MESSAGE value="oauth flow works and now can write to db as well!!!" />
     <MESSAGE value="Trying to do some cookie business" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to do some cookie business" />
+    <MESSAGE value="Finally done with cookies my god how hard is it!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally done with cookies my god how hard is it!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

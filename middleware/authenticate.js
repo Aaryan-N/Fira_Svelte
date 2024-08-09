@@ -1,7 +1,4 @@
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
-const jwt = require('jsonwebtoken');
+import * as jwt from 'jsonwebtoken'
 
 export const authenticator = async (req, res, next) => {
 	const token = req.cookies.token;
@@ -12,6 +9,6 @@ export const authenticator = async (req, res, next) => {
 		await next();
 	} catch (e) {
 		res.clearCookie("token")
-		return res.redirect("/auth/discord/login")
+		return res.redirect("/")
 	}
 }

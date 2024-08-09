@@ -80,7 +80,7 @@ app.get('/auth/discord/callback', async (req, res) => {
 	});
 
 	res.cookie('token', token, {
-		secure: true,
+		httpOnly: true,
 	});
 
 	console.log('Cookie Sent!')
@@ -88,8 +88,8 @@ app.get('/auth/discord/callback', async (req, res) => {
 
 })
 
-app.get('/test', authenticator, (req, res) => {
-	res.send(req.cookies.token);
+app.get('/test', (req, res) => {
+	res.send("Rahhh testing");
 })
 
 app.use(handler)
