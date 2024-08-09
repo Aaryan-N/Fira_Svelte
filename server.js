@@ -83,13 +83,7 @@ app.get('/auth/discord/callback', async (req, res) => {
 		httpOnly: true,
 	});
 
-	console.log('Cookie Sent!')
 	res.redirect(process.env.CLIENT_REDIRECT_URL)
-
-})
-
-app.get('/test', (req, res) => {
-	res.send("Rahhh testing");
 })
 
 app.use(handler)

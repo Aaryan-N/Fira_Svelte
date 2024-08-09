@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="I can't get this auth to work no matter what lord send help">
-      <change afterPath="$PROJECT_DIR$/src/hooks.server.js" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Still going :((">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/server/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/server/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/server/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/testing.svelte" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,15 +198,7 @@
       <workItem from="1723104079794" duration="2539000" />
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
-      <workItem from="1723158157837" duration="13708000" />
-    </task>
-    <task id="LOCAL-00001" summary="Creating a navbar">
-      <option name="closed" value="true" />
-      <created>1720040512568</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1720040512569</updated>
+      <workItem from="1723158157837" duration="17429000" />
     </task>
     <task id="LOCAL-00002" summary="Creating a navbar and adding light and dark mode functionality">
       <option name="closed" value="true" />
@@ -592,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723179545253</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Still going :((">
+      <option name="closed" value="true" />
+      <created>1723181021778</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1723181021779</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ALRIGHT THE ACCORDIAN WORKS!" />
     <MESSAGE value="we up and we making" />
     <MESSAGE value="Cleaned up the footer and finished up the minecraft section of the commands" />
     <MESSAGE value="Templating a few things and yeah its looking good and my dependencies decided they didn't want to be here anymore " />
@@ -636,7 +635,8 @@
     <MESSAGE value="Trying to do some cookie business" />
     <MESSAGE value="Finally done with cookies my god how hard is it!" />
     <MESSAGE value="I can't get this auth to work no matter what lord send help" />
-    <option name="LAST_COMMIT_MESSAGE" value="I can't get this auth to work no matter what lord send help" />
+    <MESSAGE value="Still going :((" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still going :((" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
