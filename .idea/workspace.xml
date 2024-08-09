@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Changed a line lol">
-      <change afterPath="$PROJECT_DIR$/src/routes/+error.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/errors/+page.svelte" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Trying some things">
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +42,8 @@
         <option value="server" />
         <option value="+page.svelte" />
         <option value="JavaScript File" />
-        <option value="+page" />
         <option value="+error" />
+        <option value="+page" />
       </list>
     </option>
   </component>
@@ -200,14 +201,6 @@
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
       <workItem from="1723158157837" duration="18726000" />
-    </task>
-    <task id="LOCAL-00008" summary="Took a very long time figuring out the colors and shadows. css is so painful">
-      <option name="closed" value="true" />
-      <created>1720129839988</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1720129839988</updated>
     </task>
     <task id="LOCAL-00009" summary="Fixed up the navbar now moving onto the footer">
       <option name="closed" value="true" />
@@ -593,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723194496223</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Creating some error pages and other miscellaneous things">
+      <option name="closed" value="true" />
+      <created>1723197747650</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1723197747652</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,8 +613,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changing some ticketing and intro" />
-    <MESSAGE value="Finished up the economy features page" />
     <MESSAGE value="Finished up the birthday features page" />
     <MESSAGE value="Making the fun feature page" />
     <MESSAGE value="Almost done with the damn features page..." />
@@ -637,7 +636,9 @@
     <MESSAGE value="still going... i have ran out of ideas for these message" />
     <MESSAGE value="AUTH IS DONNEEEEE" />
     <MESSAGE value="Changed a line lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a line lol" />
+    <MESSAGE value="Creating some error pages and other miscellaneous things" />
+    <MESSAGE value="Trying some things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying some things" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

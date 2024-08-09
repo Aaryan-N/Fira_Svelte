@@ -23,6 +23,11 @@ app.get("/auth/discord/login", (req, res) => {
 	res.redirect(url);
 })
 
+app.get("/auth/discord/logout", (req, res) => {
+	res.clearCookie("token")
+	res.redirect("http://localhost:3000")
+})
+
 app.get('/auth/discord/callback', async (req, res) => {
 	if (!req.query.code) throw new Error("what the sigma");
 	const { code } = req.query;
@@ -75,11 +80,12 @@ app.get('/auth/discord/callback', async (req, res) => {
 	}
 
 	const token = await sign({ sub: userResponse.data.id }, process.env.JWT_SECRET,{
-		expiresIn: '7d',
+		expiresIn: '1d',
 	});
 
 	res.cookie('token', token, {
 		httpOnly: true,
+		expires: 0,
 	});
 	
 	res.redirect(process.env.CLIENT_REDIRECT_URL)
