@@ -40,6 +40,7 @@
 		"koa": "^2.15.3",
 		"koa-bodyparser": "^4.4.1",
 		"koa-static": "^5.0.0",
-		"mongoose": "^8.5.2"
+		"mongoose": "^8.5.2",
+		"svelte-preprocess": "^6.0.2"
 	}
 }
