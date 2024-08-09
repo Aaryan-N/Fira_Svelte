@@ -76,21 +76,14 @@ export const load = async ({ locals }) => {
 	const serverNameArray = resultsOfGuilds.arr2Values
 	const serverIconIdsArray = resultsOfGuilds.arr4Values
 
-	const guildData = new Map();
-
-	console.log(finalGuildOutput)
-
-	const data = new Map();
-
-	for (let i = 0; i < serverNames.length; i++) {
-		data.set(serverIds[i], {
-			name: serverNames[i],
-			iconId: iconIds[i],
-		});
-	}
+	let guildDataArrays = serverIdsArray.map((id, index) => ({
+		id: id,
+		name: serverNameArray[index],
+		icon: serverIconIdsArray[index],
+	}));
 
 	return {
-		finalGuildOutput: finalGuildOutput
+		finalGuildOutputMap: guildDataArrays
 	}
 }
 

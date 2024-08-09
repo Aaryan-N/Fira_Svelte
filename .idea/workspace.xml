@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Trying to work on servers page. Now I got the parent js file working!">
-      <change afterPath="$PROJECT_DIR$/src/components/template/ServerSelect.svelte" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Trying to get server array working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/template/ServerSelect.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/template/ServerSelect.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/servers/+page.svelte" afterDir="false" />
@@ -203,14 +203,6 @@
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
       <workItem from="1723158157837" duration="18726000" />
-    </task>
-    <task id="LOCAL-00011" summary="Learning how to do routing and pages in svelte">
-      <option name="closed" value="true" />
-      <created>1721434974702</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1721434974703</updated>
     </task>
     <task id="LOCAL-00012" summary="Working on the navbar">
       <option name="closed" value="true" />
@@ -596,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723205164140</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Trying to get server array working">
+      <option name="closed" value="true" />
+      <created>1723210176984</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1723210176985</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +615,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Making the fun feature page" />
     <MESSAGE value="Almost done with the damn features page..." />
     <MESSAGE value="Almost done with the features page!" />
     <MESSAGE value="Done with the features page!" />
@@ -640,7 +639,8 @@
     <MESSAGE value="Creating some error pages and other miscellaneous things" />
     <MESSAGE value="Trying some things" />
     <MESSAGE value="Trying to work on servers page. Now I got the parent js file working!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to work on servers page. Now I got the parent js file working!" />
+    <MESSAGE value="Trying to get server array working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to get server array working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
