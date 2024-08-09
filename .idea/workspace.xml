@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="AUTH IS DONNEEEEE">
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Changed a line lol">
+      <change afterPath="$PROJECT_DIR$/src/routes/+error.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/errors/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,8 @@
         <option value="server" />
         <option value="+page.svelte" />
         <option value="JavaScript File" />
+        <option value="+page" />
+        <option value="+error" />
       </list>
     </option>
   </component>
@@ -80,35 +85,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.index.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;production&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.5.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.1.0&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aaryan/Projects/Fira_Svelte/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ide.date.format&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Node.js.index.cjs.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "production",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "22.5.1",
+    "javascript.nodejs.core.library.typings.version": "22.1.0",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aaryan/Projects/Fira_Svelte/src/routes/errors",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm dev.executor": "Run",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "ide.date.format",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -120,11 +125,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src\routes\errors" />
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src\routes" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src" />
+      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src\routes\errors\nologin" />
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte" />
-      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\src\models" />
-      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\oAuthRouter\src" />
-      <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aaryan\Projects\Fira_Svelte\static\minecraftex" />
@@ -195,14 +200,6 @@
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
       <workItem from="1723158157837" duration="18726000" />
-    </task>
-    <task id="LOCAL-00007" summary="Adding some more pages">
-      <option name="closed" value="true" />
-      <created>1720126512418</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1720126512419</updated>
     </task>
     <task id="LOCAL-00008" summary="Took a very long time figuring out the colors and shadows. css is so painful">
       <option name="closed" value="true" />
@@ -588,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723194027479</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Changed a line lol">
+      <option name="closed" value="true" />
+      <created>1723194496222</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1723194496223</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +612,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added new menu and general improvements" />
     <MESSAGE value="Changing some ticketing and intro" />
     <MESSAGE value="Finished up the economy features page" />
     <MESSAGE value="Finished up the birthday features page" />
@@ -632,7 +636,8 @@
     <MESSAGE value="Alright the auth is still being a pain, how has this taken the whole day!!" />
     <MESSAGE value="still going... i have ran out of ideas for these message" />
     <MESSAGE value="AUTH IS DONNEEEEE" />
-    <option name="LAST_COMMIT_MESSAGE" value="AUTH IS DONNEEEEE" />
+    <MESSAGE value="Changed a line lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a line lol" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
