@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="still going... i have ran out of ideas for these message">
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="AUTH IS DONNEEEEE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" afterDir="false" />
@@ -197,14 +197,6 @@
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
       <workItem from="1723158157837" duration="18726000" />
-    </task>
-    <task id="LOCAL-00005" summary="Didn't get much done will most probably will have to properly design the website before jumping right in (who would have thought?)">
-      <option name="closed" value="true" />
-      <created>1720084766508</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1720084766512</updated>
     </task>
     <task id="LOCAL-00006" summary="Figma was overrated anyways">
       <option name="closed" value="true" />
@@ -590,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723190639262</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="AUTH IS DONNEEEEE">
+      <option name="closed" value="true" />
+      <created>1723194008586</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1723194008589</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added a new arcade features area and changed the favicon" />
     <MESSAGE value="Added new menu and general improvements" />
     <MESSAGE value="Changing some ticketing and intro" />
     <MESSAGE value="Finished up the economy features page" />
@@ -634,7 +633,8 @@
     <MESSAGE value="I'm going to throw the laptop out the window" />
     <MESSAGE value="Alright the auth is still being a pain, how has this taken the whole day!!" />
     <MESSAGE value="still going... i have ran out of ideas for these message" />
-    <option name="LAST_COMMIT_MESSAGE" value="still going... i have ran out of ideas for these message" />
+    <MESSAGE value="AUTH IS DONNEEEEE" />
+    <option name="LAST_COMMIT_MESSAGE" value="AUTH IS DONNEEEEE" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
