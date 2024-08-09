@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="Alright the auth is still being a pain, how has this taken the whole day!!">
+    <list default="true" id="fd775976-428f-441a-a7df-e7eac8b492f3" name="Changes" comment="still going... i have ran out of ideas for these message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/server/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/server/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,14 +197,6 @@
       <workItem from="1723106667219" duration="20849000" />
       <workItem from="1723157850028" duration="129000" />
       <workItem from="1723158157837" duration="18726000" />
-    </task>
-    <task id="LOCAL-00004" summary="Finished up learning routing">
-      <option name="closed" value="true" />
-      <created>1720075934897</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1720075934897</updated>
     </task>
     <task id="LOCAL-00005" summary="Didn't get much done will most probably will have to properly design the website before jumping right in (who would have thought?)">
       <option name="closed" value="true" />
@@ -591,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723190426457</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="still going... i have ran out of ideas for these message">
+      <option name="closed" value="true" />
+      <created>1723190639259</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1723190639262</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Templating a few things and yeah its looking good and my dependencies decided they didn't want to be here anymore " />
     <MESSAGE value="Added a new arcade features area and changed the favicon" />
     <MESSAGE value="Added new menu and general improvements" />
     <MESSAGE value="Changing some ticketing and intro" />
@@ -635,7 +633,8 @@
     <MESSAGE value="Still going :((" />
     <MESSAGE value="I'm going to throw the laptop out the window" />
     <MESSAGE value="Alright the auth is still being a pain, how has this taken the whole day!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alright the auth is still being a pain, how has this taken the whole day!!" />
+    <MESSAGE value="still going... i have ran out of ideas for these message" />
+    <option name="LAST_COMMIT_MESSAGE" value="still going... i have ran out of ideas for these message" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

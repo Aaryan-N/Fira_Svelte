@@ -4,7 +4,6 @@ import 'dotenv/config'
 import axios from 'axios';
 import { usersSchemaExport } from './src/models/userModel.js';
 import { createRequire } from "module";
-import { authenticator } from './middleware/authenticate.js';
 const require = createRequire(import.meta.url);
 const cookieParser = require("cookie-parser");
 const { sign } = require('jsonwebtoken');
