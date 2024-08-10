@@ -1,10 +1,10 @@
-let decryptedToken = '';
 import { redirect } from '@sveltejs/kit'
 import { createRequire } from "node:module";
 import { usersSchemaExport } from '../../../models/userModel.js';
 const require = createRequire(import.meta.url);
 const { decode } = require('jsonwebtoken');
 import axios from 'axios';
+import { building } from '$app/environment';
 
 let decodeToken = '';
 
@@ -14,14 +14,20 @@ export const load = async ({ locals }) => {
 
 	try {
 		const decoderToken = await decode(token);
+		console.log(decoderToken);
 		decodeToken = decoderToken.sub
 	} catch (e) {
 		throw redirect(303, '/errors')
 	}
 
-	let userOAuthInfo = await usersSchemaExport.findOne({
-		userId: decodeToken
-	});
+
+	let userOAuthInfo;
+
+	if (process.env.NODE_ENV !== 'production') {
+		userOAuthInfo = await usersSchemaExport.findOne({
+			userId: decodeToken
+		});
+	}
 
 	let access_token = '';
 

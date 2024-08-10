@@ -3,17 +3,11 @@ dotenv.config({ path: '../../.env', encoding: 'utf8' });
 import mongoose from 'mongoose';
 
 export function connectDBs() {
-	try {
-		const usersDb = mongoose.createConnection(process.env.MONGOURLUSERS, {});
-		return { usersDb };
-	} catch (error) {
-		console.log(error);
-		process.exit(1);
+	if (process.env.NODE_ENV !== 'production') {
+			const usersDb = mongoose.createConnection(process.env.MONGOURLUSERS, {});
+			console.log("Connected to Mongo DB!");
+			return { usersDb };
+} else {
+		console.log("Currently building hold it!")
 	}
-}
-
-try {
-	console.log("Connected to Mongo DB!");
-} catch (e) {
-	console.log(error);
 }

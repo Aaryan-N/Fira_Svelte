@@ -1,6 +1,9 @@
 import { connectDBs } from './connectDatabase.js';
 import mongoose from 'mongoose';
 
+let guildSchemaExport = null;
+
+if (process.env.NODE_ENV !== 'production') {
 const guildSchema = mongoose.Schema({
 	guildId: {
 		type: String,
@@ -19,8 +22,7 @@ const guildSchema = mongoose.Schema({
 		required: true,
 	},
 });
-
-const { usersDb } = connectDBs();
-
-export const guildSchemaExport = usersDb.model('guilds', guildSchema);
-
+	const { usersDb } = connectDBs();
+	guildSchemaExport = usersDb.model('guilds', guildSchema);
+}
+	export { guildSchemaExport }
