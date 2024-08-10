@@ -1,3 +1,15 @@
+<script context="module">
+    export const load = async ({ data }) => {
+        return {
+            token: data.decoderToken,
+        };
+    };
+</script>
+
+<script>
+    export let decoderToken
+</script>
+
 <nav class="bg-gradient-to-t from-[#412534] to-[#302134] bg-[#313338] flex justify-between items-center w-[100%] mx-auto pt-2 pb-2 mb-0 sticky top-0">
     <div>
         <img class="ml-3 rounded-full w-16 h-16" src="/FiraLogo.jpeg" alt="Fira" />
@@ -21,9 +33,18 @@
                 </li>
             </ul>
     </div>
+    {#if decoderToken === null}
     <div>
         <a href="/auth/discord/login">
         <button class="bg-[#FFE7BC] text-black px-5 py-2 rounded-full hover:bg-[#ffffff] mr-2.5">Sign In</button>
         </a>
     </div>
+    {/if}
+    {#if decoderToken !== null}
+        <div>
+            <a href="/auth/discord/logout">
+                <button class="bg-[#FFE7BC] text-black px-5 py-2 rounded-full hover:bg-[#ffffff] mr-2.5">Logout</button>
+            </a>
+        </div>
+    {/if}
 </nav>

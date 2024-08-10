@@ -15,7 +15,6 @@ export const load = async ({ locals }) => {
 	try {
 		const decoderToken = await decode(token);
 		decodeToken = decoderToken.sub
-		console.log(decodeToken)
 	} catch (e) {
 		throw redirect(303, '/errors')
 	}
